@@ -78,3 +78,51 @@ nav ul {
 #menu a:hover {
     border-bottom: 1px solid #272A23;
 }
+
+/* hero-image and cover text*/
+
+#hero-outer {
+    height: 900px;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
+    /* allows child to position absolute to the parent */
+}
+
+#cover-text,
+#cover-text h2 {
+    /* h2 added to override main h2 rule above */
+    color: #fff;
+}
+
+#hero-image {
+    height: 900px;
+    width: 100%;
+    background: url('../images/hero.image.webp');
+}
+
+#cover-text {
+    font-size: 130%;
+    font-family: Nunito Sans, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    /* space between letters */
+
+    width: 350px;
+    /* div size - height and width */
+    height: 150px;
+
+    padding-top: 30px;
+    padding-left: 30px;
+
+    background-color: rgba(5, 160, 129, .8);
+    /* rgba value for oppacity */
+
+    bottom: 100px;
+    /* placing at a fixed position relative to its parent container */
+    right: 150px;
+
+    position: absolute;
+}
