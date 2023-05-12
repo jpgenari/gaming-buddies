@@ -4,9 +4,77 @@
     margin: 0;
     padding: 0;
     border: none;
-} /* gaining more control over box-model measurement when styling */
+}
 
 body {
     font-family: Roboto, sans-serif;
     font-weight: 300;
+    padding-top: 95px;
+    padding-bottom: 60px;
+}
+
+/* fixed header and footer reference https: //www.tutorialrepublic.com/codelab.php?topic=faq&file=css-fixed-positioned-header-and-footer */
+
+.fixed-header, .fixed-footer {
+    width: 100%;
+    position: fixed;
+    background: #fff;
+    padding: 10px 0;
+}
+
+.fixed-header {
+    top: 0;
+}
+
+.fixed-footer {
+    bottom: 0;
+}
+
+/* headings and logo */
+
+h1,
+h2 {
+    font-family: Nunito Sans, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #272A23;
+}
+
+#logo {
+    float: left;
+    font-size: 280%;
+    margin-left: 30px;
+}
+
+/* navigation menu */
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 3px;
+}
+
+#menu,
+#logo {
+    line-height: 75px;
+}
+
+nav ul {
+    float: right
+        /* solution found to keep correct items order without changing html */
+}
+
+#menu li {
+    display: inline;
+        /* solution found to keep correct items order without changing html */
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #272A23;
 }
