@@ -131,3 +131,18 @@ nav ul {
 
     position: absolute;
 }
+
+/* page block elements */ 
+
+.page-elements {
+    height: 650px;
+    width: 100%;
+    padding: 25px 25px 25px 25px;
+}
+
+/* who we are section */
+
+img {
+    width: 450px;
+    height: 600px;
+}
