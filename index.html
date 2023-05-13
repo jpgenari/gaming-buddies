@@ -49,8 +49,36 @@
             <p>We are a gamers community focused in finding gaming buddies to play, chat and have fun together!</p>
         </div>
     </section>
-    <section id="joinus">
-        Join us
+    <section id="joinus" class="page-elements">
+        <div>
+            <form action="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
+                <h2>Want to join us?</h2>
+                <p>Sign up below to find your gaming buddy</p>
+                
+                <label for="fname">First Name</label>
+                <input id="fname" name="first_name" type="text" required class="text-input">
+
+                <label for="lname">Last Name</label>
+                <input id="lname" name="last_name" type="text" required class="text-input">
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email_address" required class="text-input">
+
+                <label for="your-console" class="block-dropdown">What's Your Console?</label>
+                <input id="your-console" list="consoles" name="your_console" required>
+                <datalist id="consoles"
+                    <option value="Nintendo Switch">
+                    <option value="Nintendo Switch">
+                    <option value="PlayStation 5">
+                    <option value="Xbox Series S/X">
+                </datalist>
+                <input class="join-button" type="submit" value="Press Start!">
+
+            </form>
+        </div>
+        <div>
+            <img src="/assets/images/joinus-image.WebP" alt="A man and a woman on a couch playing video game">
+        </div>
     </section>
     <section id="meetup">
         Meet up
