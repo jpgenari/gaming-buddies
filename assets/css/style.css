@@ -24,6 +24,7 @@ body {
 
 .fixed-header {
     top: 0;
+    z-index: 9999; /* added to prevent content overlapping header */
 }
 
 .fixed-footer {
@@ -82,7 +83,7 @@ nav ul {
 /* hero-image and cover text*/
 
 #hero-outer {
-    height: 900px;
+    height: 600px;
     width: 100%;
     overflow: hidden;
 
@@ -97,9 +98,12 @@ nav ul {
 }
 
 #hero-image {
-    height: 900px;
-    width: 100%;
-    background: url('../images/hero.image.webp');
+    height: 600px;
+    max-width: 100%;
+    background-image: url('../images/hero.image.jpg'); /* replaced image for immage with suitable size */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 #cover-text {
@@ -114,8 +118,9 @@ nav ul {
     /* div size - height and width */
     height: 150px;
 
-    padding-top: 30px;
-    padding-left: 30px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 20px;
 
     background-color: rgba(5, 160, 129, .8);
     /* rgba value for oppacity */
