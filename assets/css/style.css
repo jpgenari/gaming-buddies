@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Roboto:wght@300&display=swap');
 
-* { 
+* {
     margin: 0;
     padding: 0;
     border: none;
@@ -15,7 +15,8 @@ body {
 
 /* fixed header and footer reference https: //www.tutorialrepublic.com/codelab.php?topic=faq&file=css-fixed-positioned-header-and-footer */
 
-.fixed-header, .fixed-footer {
+.fixed-header,
+.fixed-footer {
     width: 100%;
     position: fixed;
     background: #fff;
@@ -24,7 +25,8 @@ body {
 
 .fixed-header {
     top: 0;
-    z-index: 9999; /* added to prevent content overlapping header */
+    z-index: 9999;
+    /* added to prevent content overlapping header */
 }
 
 .fixed-footer {
@@ -60,13 +62,11 @@ h2 {
 }
 
 nav ul {
-    float: right
-        /* solution found to keep correct items order without changing html */
+    float: right /* solution found to keep correct items order without changing html */
 }
 
 #menu li {
-    display: inline;
-        /* solution found to keep correct items order without changing html */
+    display: inline; /* solution found to keep correct items order without changing html */
     list-style-type: none;
     margin-right: 30px;
 }
@@ -80,40 +80,40 @@ nav ul {
     border-bottom: 1px solid #272A23;
 }
 
-/*  general rules */
+/* general rules */ 
 
-/* .page-elements {
+.main-elements {
     height: 620px;
-    width: 100%;
-    padding: 10px;
-} */
-
-/* img {
-    width: 100%;
-    height: 600px;
-    object-fit: cover;
+    max-width: 100%;
     overflow: hidden;
-} */
+    position: relative;
+    padding: 10px;
+}
 
-#cover-text, #cover-text h2, #whoweare-boxes {
-    background-color: rgba(5, 160, 129, .8);
-    /* rgba value for oppacity */
+#cover-text,
+#whoweare-text,
+#meetup-text,
+.signup-form {
+    background-color: rgba(3, 103, 83, 0.8);
     color: #fff;
+    padding: 15px;
+    /* margin: auto; */
+    letter-spacing: 2px;
 }
 
-.align-left {
-    float: left;
-    width: 40%;
-    height: 600px;
+#cover-text h2,
+#whoweare-text h2,
+#meetup-text h2,
+.signup-form h2 {
+    color: #fff; /* rule created to prevend darker background for h2 elements - it was causing background color to double */ 
 }
 
-.align-right {
-    float: right;
-    width: 60%;
-    height: 600px;
-}
 
-/* page elements */
+#whoweare-text h2,
+#meetup-text h2,
+.signup-form h2 {
+    font-size: 130%;
+}
 
 /* hero-image and cover text*/
 
@@ -121,8 +121,7 @@ nav ul {
     height: 600px;
     width: 100%;
     overflow: hidden;
-    position: relative;
-    /* allows child to position absolute to the parent */
+    position: relative; /* allows child to position absolute to the parent */
 }
 
 #hero-image {
@@ -137,35 +136,18 @@ nav ul {
 #cover-text {
     font-size: 150%;
     font-family: Nunito Sans, sans-serif;
-    text-align: center;
+    text-align: left;
     text-transform: uppercase;
-    letter-spacing: 3px;
-    /* space between letters */
 
     width: 380px;
-    /* div size - height and width */
-    height: 150px;
-
-    padding-top: 20px;
-    padding-left: 10px;
-    padding-right: 20px;
+    height: 150px; /* div size - height and width */
 
     bottom: 100px;
-    /* placing at a fixed position relative to its parent container */
-    right: 150px;
-
+    right: 150px; /* placing at a fixed position relative to its parent container */
     position: absolute;
 }
 
 /* who we are element */
-
-#whoweare {
-    height: 620px;
-    max-width: 100%;
-    overflow: hidden;
-    position: relative;
-    padding: 10px;
-}
 
 #whoweare-image {
     height: 600px;
@@ -176,59 +158,20 @@ nav ul {
     background-position: center;
 }
 
-#whoweare-content {
-    width: 60%;
-    float: right
-}
-
 #whoweare-text {
-    
-    font-size: 130%;
-    text-align: center;
+    text-align: right;
     vertical-align: center;
     letter-spacing: 3px;
-    text-transform: uppercase;
-    margin: auto;
-    padding: 10px;
-    
-    width: 350px;
-    height: 195px;
 
-    bottom: 250px;
-    right: 220px;
+    width: 350px; 
+    height: 195px; /* div size - height and width */
+
+    bottom: 200px;
+    right: 220px; /* placing at a fixed position relative to its parent container */
     position: absolute;
-    border: 3px solid #05a081;
-    
-}
-
-#whoweare-boxes span {
-    font-size: 100%;
-    width: 33%;
-    height: 100px;
-    text-transform: uppercase;
-    display: inline;
-    padding: 20px;
-    border: 3px solid #05a081;
-
-
-
-    /* bottom: 100px; */
-        /* placing at a fixed position relative to its parent container */
-    /* right: 150px; */
-    /* box-sizing: border-box; */
-    /* position: absolute; */
-    
 }
 
 /* join us element */
-
-#joinus {
-    height: 620px;
-    max-width: 100%;
-    overflow: hidden;
-    position: relative;
-    padding: 10px;
-}
 
 #joinus-image {
     height: 600px;
@@ -245,18 +188,16 @@ nav ul {
 #joinus-form {
     width: 60%;
     height: 600px;
+    float: left;
 }
 
 .signup-form {
     margin: 150px 10% 0 0;
-    color: #272A23;
-    background-color: #fff;
     max-width: 400px;
+    
+    left: 220px;
+    bottom: 90px; /* placing at a fixed position relative to its parent container */
     position: absolute;
-    left: 10%;
-    padding: 20px;
-    border: 3px solid #05a081;
-    bottom: 100px;
 }
 
 .text-input {
@@ -264,7 +205,6 @@ nav ul {
     width: 100%;
     height: 25px;
     margin: 5px 0 20px 0;
-    border: 2px solid #05a081;
     border-radius: 2px;
 }
 
@@ -277,16 +217,11 @@ nav ul {
     width: 50%;
     height: 15px;
     margin: 5px 0 20px 0;
-    border: 2px solid #05a081;
     border-radius: 2px;
 }
 
 .block-dropdown:hover {
     border-color: #b52222;
-}
-
-#consoles {
-
 }
 
 .join-button {
@@ -295,8 +230,8 @@ nav ul {
     padding: 15px 32px 15px 32px;
     text-align: center;
     font-size: 100%;
-    background-color: #05a081;
-    color: #fff;
+    background-color: #fff;
+    color: #036753;
     display: block;
 }
 
@@ -305,15 +240,7 @@ nav ul {
     color: #fff;
 }
 
-
 /* meet up element */
-
-#meetup {
-    height: 620px;
-    max-width: 100%;
-    position: relative;
-    padding: 10px;
-}
 
 #meetup-imaage {
     background-image: url('../images/meetup-image.WebP');
@@ -322,33 +249,32 @@ nav ul {
     background-position: center;
     height: 600px;
     width: 100%;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 #map-wrapper {
     float: left
-    /* width: 50% */
     bottom: 55px;
-    left: 200px;
+    left: 100px;
     position: absolute;
 }
 
 #meetup-text {
-    float: right
-    font-size: 130%;
-    text-align: center;
+    float: right;
+    text-align: right;
     vertical-align: center;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    padding: 10px;
-    
+
     width: 350px;
     height: 300px;
-    
+
     bottom: 200px;
-    right: 220px;
+    right: 100px;
     position: absolute;
-    border: 3px solid #05a081;
+}
+
+.token-name-address {
+    text-decoration: underline #fff;
+    font-style: italic;
 }
 
 /* footer element */
