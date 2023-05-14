@@ -12,7 +12,10 @@
     <title>Gaming Buddies</title>
 </head>
 <body>
+    <!-- Header element -->
+    
     <header class="fixed-header">
+        
         <a href="index.html">
             <h1 id="logo">Gaming Buddies</h1>
         </a>
@@ -32,25 +35,46 @@
                 </li>
             </ul>
         </nav>
+
     </header>
+
+    <!-- Hero (home) element -->
+
     <section id="hero-outer">
+        
         <div id="hero-image"></div>
+        
         <div id="cover-text">
             <h2>Gaming Buddies</h2>
             <h3>Bringing buddy gamers together</h3>
         </div>
+
     </section>
     <section id="whoweare" class="page-elements">
+        
         <div>
             <img src="/assets/images/whoweare-image.WebP" alt="A blue fliperama stick">
         </div>
+        
         <div>
             <h2>Who We Are</h2>
             <p>We are a gamers community focused in finding gaming buddies to play, chat and have fun together!</p>
         </div>
-    </section>
-    <section id="joinus" class="page-elements">
+
         <div>
+            <span>Choose Your Console</span>
+            <span>Pick Your Game</span>
+            <span>Press Start!</span>
+        </div>
+
+    </section>
+
+    <!-- Join Us element -->
+
+    <section id="joinus" class="page-elements">
+        
+        <div>
+            
             <form action="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
                 <h2>Want to join us?</h2>
                 <p>Sign up below to find your gaming buddy</p>
@@ -66,36 +90,74 @@
 
                 <label for="your-console" class="block-dropdown">What's Your Console?</label>
                 <input id="your-console" list="consoles" name="your_console" required>
+                
                 <datalist id="consoles"
                     <option value="Nintendo Switch">
                     <option value="Nintendo Switch">
                     <option value="PlayStation 5">
                     <option value="Xbox Series S/X">
                 </datalist>
-                <input class="join-button" type="submit" value="Press Start!">
 
+                <input class="join-button" type="submit" value="Play!">
             </form>
         </div>
+       
         <div>
             <img src="/assets/images/joinus-image.WebP" alt="A man and a woman on a couch playing video game">
         </div>
+
     </section>
+    
+    <!-- Meet Up element -->
+    
     <section id="meetup" class="page-elements">
+        
         <div id="meetup-image"></div>
+        
+        <div id="cover-text-map">
         <div>
-            <h2></h2>
-            <p></p>
+            <h2>Let's Meet Up!</h2>
+            <h3>Fancy playing or chatting about your favorite game face to face?</h3>
+            <h3>Every two weeks we meet up at the Token pub in Dublin!</h3>
+            <h3>2nd and last Saturdays</h3>
+            <h3>15:00</h3>
         </div>
+        
         <div id="map-wrapper">
             <iframe src="https://bit.ly/gmaingbuddiesmap" frameborder="0" width="100%" height="300"></iframe>
         </div>
+        
+        </div>
     </section>
+
+    <!-- Footer element -->
+
     <footer class="fixed-footer">
-        social links
+        
+        <ul class="social-networks">
+            <li>
+                <a href="https://facebook.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+                <a href="https://twitter.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Twitter page (opens in a new tab)"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li>
+                <a href="https://youtube.com" target="_blank" rel="noopener"
+                    aria-label="Visit our YouTube page (opens in a new tab)"><i class="fa-brands fa-square-youtube"></i></a>
+            </li>
+            <li>
+                <a href="https://instagram.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+        </ul>
+
     </footer>
 
-    <!-- font awesome script-->
+    <!-- Font Awesome script-->
+
     <script src="https://kit.fontawesome.com/de0f72e78e.js" crossorigin="anonymous"></script>
-    
+
 </body>
 </html>
