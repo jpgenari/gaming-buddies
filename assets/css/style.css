@@ -154,7 +154,7 @@ nav ul {
 
 #whoweare-image {
     height: 600px;
-    max-width: 40%;
+    max-width: 400px;
     background-image: url('../images/whoweare-image.WebP');
     background-repeat: no-repeat;
     background-size: cover;
@@ -229,7 +229,7 @@ nav ul {
 
 #joinus-image {
     height: 600px;
-    width: 40%;
+    width: 400px;
     background-image: url('../images/joinus-image.WebP');
     background-repeat: no-repeat;
     background-size: cover;
@@ -245,7 +245,7 @@ nav ul {
     background-size: cover;
     background-position: center;
     height: 600px;
-    max-width: 100%;
+    width: 100%;
     overflow: hidden;
 }
 
