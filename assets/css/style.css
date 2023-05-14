@@ -25,8 +25,7 @@ body {
 
 .fixed-header {
     top: 0;
-    z-index: 9999;
-    /* added to prevent content overlapping header */
+    z-index: 9999; /* added to prevent content overlapping header */
 }
 
 .fixed-footer {
@@ -161,43 +160,27 @@ nav ul {
 #whoweare-text {
     text-align: right;
     vertical-align: center;
-    letter-spacing: 3px;
 
     width: 350px; 
     height: 195px; /* div size - height and width */
 
     bottom: 200px;
-    right: 220px; /* placing at a fixed position relative to its parent container */
+    right: 15%; /* placing at a fixed position relative to its parent container */
     position: absolute;
 }
 
 /* join us element */
 
-#joinus-image {
-    height: 600px;
-    max-width: 40%;
-    background-image: url('../images/joinus-image.WebP');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    float: right;
-    right: 0;
-    position: absolute;
-}
-
 #joinus-form {
-    width: 60%;
     height: 600px;
-    float: left;
+    left: 15%;
+    bottom: 90px; /* placing at a fixed position relative to its parent container */
+    position: absolute;
 }
 
 .signup-form {
     margin: 150px 10% 0 0;
     max-width: 400px;
-    
-    left: 220px;
-    bottom: 90px; /* placing at a fixed position relative to its parent container */
-    position: absolute;
 }
 
 .text-input {
@@ -238,6 +221,16 @@ nav ul {
 .join-button:hover {
     background-color: #b52222;
     color: #fff;
+}
+
+#joinus-image {
+    height: 600px;
+    width: 40%;
+    background-image: url('../images/joinus-image.WebP');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    float: right
 }
 
 /* meet up element */
