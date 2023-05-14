@@ -95,8 +95,7 @@ nav ul {
     overflow: hidden;
 } */
 
-.elements-text, 
-.elements-text h2 {
+#cover-text, #cover-text h2, #whoweare-boxes {
     background-color: rgba(5, 160, 129, .8);
     /* rgba value for oppacity */
     color: #fff;
@@ -193,23 +192,23 @@ nav ul {
     padding: 10px;
     
     width: 350px;
-    height: 170px;
+    height: 195px;
 
-    bottom: 240px;
-        /* placing at a fixed position relative to its parent container */
-    right: 150px;
+    bottom: 250px;
+    right: 220px;
     position: absolute;
+    border: 3px solid #05a081;
     
 }
 
 #whoweare-boxes span {
     font-size: 100%;
-    /* width: 33%; */
+    width: 33%;
     height: 100px;
     text-transform: uppercase;
     display: inline;
     padding: 20px;
-    border: 2px solid rgba(5, 160, 129, .1);
+    border: 3px solid #05a081;
 
 
 
@@ -224,23 +223,66 @@ nav ul {
 /* join us element */
 
 #joinus {
+    height: 620px;
+    max-width: 100%;
+    overflow: hidden;
     position: relative;
+    padding: 10px;
+}
+
+#joinus-image {
+    height: 600px;
+    max-width: 40%;
+    background-image: url('../images/joinus-image.WebP');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    float: right;
+    right: 0;
+    position: absolute;
 }
 
 #joinus-form {
-
+    width: 60%;
+    height: 600px;
 }
 
 .signup-form {
-
+    margin: 150px 10% 0 0;
+    color: #272A23;
+    background-color: #fff;
+    max-width: 400px;
+    position: absolute;
+    left: 10%;
+    padding: 20px;
+    border: 3px solid #05a081;
+    bottom: 100px;
 }
 
 .text-input {
+    color: #272A23;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 2px solid #05a081;
+    border-radius: 2px;
+}
 
+.text-input:hover {
+    border-color: #b52222;
 }
 
 .block-dropdown {
+    color: #272A23;
+    width: 50%;
+    height: 15px;
+    margin: 5px 0 20px 0;
+    border: 2px solid #05a081;
+    border-radius: 2px;
+}
 
+.block-dropdown:hover {
+    border-color: #b52222;
 }
 
 #consoles {
@@ -248,30 +290,65 @@ nav ul {
 }
 
 .join-button {
-
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #05a081;
+    color: #fff;
+    display: block;
 }
 
-#joinus-image {
-    width: 40%;
-    float: right;
+.join-button:hover {
+    background-color: #b52222;
+    color: #fff;
 }
+
 
 /* meet up element */
 
 #meetup {
-
+    height: 620px;
+    max-width: 100%;
+    position: relative;
+    padding: 10px;
 }
 
 #meetup-imaage {
-
-}
-
-#meetup-text {
-
+    background-image: url('../images/meetup-image.WebP');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
 }
 
 #map-wrapper {
+    float: left
+    /* width: 50% */
+    bottom: 55px;
+    left: 200px;
+    position: absolute;
+}
 
+#meetup-text {
+    float: right
+    font-size: 130%;
+    text-align: center;
+    vertical-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding: 10px;
+    
+    width: 350px;
+    height: 300px;
+    
+    bottom: 200px;
+    right: 220px;
+    position: absolute;
+    border: 3px solid #05a081;
 }
 
 /* footer element */
