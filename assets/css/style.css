@@ -80,6 +80,21 @@ nav ul {
     border-bottom: 1px solid #272A23;
 }
 
+/*  general rules */
+
+.page-elements {
+    height: 650px;
+    width: 100%;
+    padding: 25px 25px 25px 25px;
+}
+
+img {
+    width: 450px;
+    height: 600px;
+}
+
+/* page elements */
+
 /* hero-image and cover text*/
 
 #hero-outer {
@@ -132,18 +147,88 @@ nav ul {
     position: absolute;
 }
 
-/* page block elements */ 
+/* who we are element */
 
-.page-elements {
-    height: 650px;
-    width: 100%;
-    padding: 25px 25px 25px 25px;
+#whoweare {
+
 }
 
-img {
-    width: 450px;
-    height: 600px;
+#whoweare-image {
+
 }
 
-/* who we are section */
+#whoweare-text {
 
+}
+
+#whoweare-boxes {
+
+}
+
+/* join us element */
+
+#joinus {
+
+}
+
+#joinus-form {
+
+}
+
+.signup-form {
+
+}
+
+.text-input {
+
+}
+
+.block-dropdown {
+
+}
+
+#consoles {
+
+}
+
+.join-button {
+
+}
+
+#joinus-image {
+
+}
+
+/* meet up element */
+
+#meetup {
+
+}
+
+#meetup-imaage {
+
+}
+
+#meetup-text {
+
+}
+
+#map-wrapper {
+
+}
+
+/* footer element */
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks>li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    color: #272A23;
+}
