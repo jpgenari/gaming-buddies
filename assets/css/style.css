@@ -114,6 +114,10 @@ nav ul {
     font-size: 130%;
 }
 
+/* .border-elements {
+    border-style: 2px solid #036753;
+} */
+
 /* hero-image and cover text*/
 
 #hero-outer {
@@ -246,11 +250,11 @@ nav ul {
 }
 
 .map-wrapper {
-    position: absolute;
-    overflow: hidden;
     float: left;
-    left: 10%;
-    bottom: 140px
+    
+    left: 15%;
+    bottom: 140px;
+    position: absolute;
 }
 
 #meetup-text {
@@ -262,8 +266,8 @@ nav ul {
     width: 350px;
     height: 300px;
 
+    right: 15%;
     bottom: 180px;
-    right: 10%;
     position: absolute;
 }
 
