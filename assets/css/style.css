@@ -377,9 +377,17 @@ p {
     }
 }
 
-/* for medium sceen sizes 980px and down */
+/* for medium sceen sizes 1000px and down */
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1000px) {
+
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
 
 }
 
