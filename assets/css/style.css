@@ -473,3 +473,50 @@ p {
     }
 
 }
+
+/* For small screen sizes from 550px */
+
+@media screen and (max-width: 550px) {
+    body {
+        padding-top: 55px;
+        padding-bottom: 0;
+    }
+
+    /* .fixed-header, */
+    .fixed-footer {
+        position: relative;
+    }
+
+    .fixed-header {
+        width: 100%;
+        position: fixed;
+        top: 0;
+        background-color: #fff;
+        z-index: 9999;
+    }
+
+    #logo {
+        line-height: 35px;
+    }
+
+    #menu {
+        margin-bottom: 0;
+    }
+
+    #menu li {
+        margin-left: 0;
+        margin-bottom: 0;
+        margin-right: 20px;
+        line-height: 15px;
+        display: block;
+        letter-spacing: 2px;
+    }
+
+    #cover-text {
+        bottom: 35%;
+    }
+
+    .main-elements {
+        height: 800px;
+    }
+}
