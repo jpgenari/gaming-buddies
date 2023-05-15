@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Roboto:wght@300&display=swap');
 
-/* general rules - concentrate all general rules together */
+/* general rules */
 
 * {
     margin: 0;
     padding: 0;
     border: none;
+    /* set up to make page 'blank' for editing */
 }
 
 body {
@@ -13,7 +14,7 @@ body {
     font-weight: 300;
     padding-top: 95px;
     padding-bottom: 20px;
-    
+
     /* settings main body font and padding used for fixed header and footer */
 }
 
@@ -24,17 +25,15 @@ h2 {
     letter-spacing: 3px;
     color: #272A23;
 
-    /* settings for h1 and h2 elements font, color, spacing and transform */
+    /* settings for h1 and h2 elements font */
 }
 
 .main-sections {
-    height: 620px;
-    max-width: 100%;
+    height: 600px;
+    width: 100%;
     /* overflow: hidden; */
     position: relative;
-    padding: 10px;
-
-    /* settings for the main sections */
+    padding: 10px 0 10px 0;
 }
 
 #cover-text,
@@ -44,10 +43,7 @@ h2 {
     background-color: rgba(3, 103, 83, 0.8);
     color: #fff;
     padding: 15px;
-    /* margin: auto; */
     letter-spacing: 2px;
-
-    /* settings for main text elements - color moved to rule below */
 }
 
 #cover-text h2,
@@ -55,9 +51,10 @@ h2 {
 #meetup-text h2,
 .signup-form h2 {
     color: #fff;
-    
+
     /* rule created to prevend darker background for h2 elements - it was causing background color to double */
 }
+
 
 #whoweare-text h2,
 #meetup-text h2,
@@ -77,9 +74,13 @@ h2 {
 
 .fixed-header {
     top: 0;
-    z-index: 9999; /* added to prevent content overlapping header */
+    z-index: 9999;
+    /* added to prevent content overlapping header */
 }
 
+.fixed-footer {
+    bottom: 0;
+}
 .fixed-footer {
     bottom: 0;
 }
@@ -103,11 +104,13 @@ h2 {
 }
 
 nav ul {
-    float: right /* solution found to keep correct items order without changing html */
+    float: right
+        /* solution found to keep correct items order without changing html */
 }
 
 #menu li {
-    display: inline; /* solution found to keep correct items order without changing html */
+    display: inline;
+    /* solution found to keep correct items order without changing html */
     list-style-type: none;
     margin-right: 30px;
 }
@@ -121,12 +124,6 @@ nav ul {
     border-bottom: 1px solid #272A23;
 }
 
-
-
-/* .border-elements {
-    border-style: 2px solid #036753;
-} */
-
 /* hero section */
 
 #hero-outer {
@@ -136,7 +133,8 @@ nav ul {
 #hero-image {
     height: 100%;
     width: 100%;
-    background-image: url('../images/hero.image.jpg'); /* replaced image for immage with suitable size */
+    background-image: url('../images/hero.image.jpg');
+    /* replaced image for immage with suitable size */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -161,7 +159,7 @@ nav ul {
 #whoweare-image {
     height: 100%;
     max-width: 400px;
-    background-image: url('../images/whoweare-image.WebP');
+    background-image: url('..//images/whoweare-image.WebP');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -172,9 +170,9 @@ nav ul {
     /* div size - height and width */
     max-width: 830px;
     height: auto;
-    
+
     text-align: left;
-    
+
     top: 20%;
     right: 7%;
     bottom: 20%;
@@ -192,7 +190,7 @@ p {
 #joinus-form {
     width: 60%;
     height: auto;
-    
+
     top: 15%;
     right: 33%;
     bottom: 15%;
@@ -271,31 +269,29 @@ p {
 .map-wrapper {
     width: 30%;
     height: auto;
-    
+
     float: left;
-    
+
     top: 10%;
     right: 50%;
     bottom: 16%;
     left: 10%;
-    
     /* placing at a dynamic position relative to its parent container */
-
     position: absolute;
 }
 
 #meetup-text {
     text-align: left;
-    
+
     width: 40%;
     max-width: 50%;
     height: auto;
-    
+
     top: 25%;
     right: 10%;
     bottom: 25%;
     left: 50%;
-    
+
     position: absolute;
 }
 
@@ -375,6 +371,7 @@ p {
         left: 10%;
         /* placing at a dynamic position relative to its parent container */
     }
+
 }
 
 /* for medium sceen sizes 1000px and down */
