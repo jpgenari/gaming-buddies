@@ -165,12 +165,18 @@ nav ul {
     text-align: right;
     vertical-align: center;
 
-    width: 350px; 
-    height: 195px; /* div size - height and width */
+    width: auto; 
+    height: auto; /* div size - height and width */
+    max-width: 30%;
 
     bottom: 200px;
-    right: 15%; /* placing at a fixed position relative to its parent container */
+    right: 15%; 
+    /* placing at a fixed position relative to its parent container */
     position: absolute;
+}
+
+.text-width {
+    /* width: 60%; */
 }
 
 /* join us element */
@@ -306,8 +312,11 @@ nav ul {
     }
 
     .map-wrapper, {
+        float: left;
         left: 0%;
         bottom: 30px;
+        padding: 0;
+        /* align: left !important; */
     }
     
     #meetup-text {
@@ -324,9 +333,55 @@ nav ul {
     }
 }
 
-/* For medium screen sizes from 980px */
+/* for medium sceen sizes 980px and down */
 
 @media screen and (max-width: 980px) {
 
 }
 
+/* For medium screen sizes from 600px */
+
+@media screen and (max-width: 600px) {
+    
+    body {
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+    
+    #logo {
+        font-size: 120%;
+    }
+
+    #menu li {
+        font-size: 80%;
+        /* clear: left; */
+        float: left;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        line-height: 20px;
+        display: block;
+    }
+    
+    #cover-text {
+        left: 0;
+        max-width: 90%;
+        padding: 10px;
+        width: auto;
+        height: auto;
+        right: 0;
+    }
+    
+    #menu,
+    #logo {
+        /* line-height: 55px; */
+    }
+
+    .main-elements {
+        padding: 0;
+    }
+
+    #whoweare-text {
+        right: 0;
+        max-width: 90%;
+    }
+}
