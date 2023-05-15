@@ -190,22 +190,26 @@ p {
 /* join us section */
 
 #joinus-form {
-    height: 600px;
-    left: 15%;
-    bottom: 90px; /* placing at a fixed position relative to its parent container */
+    width: 60%;
+    height: auto;
+    
+    top: 15%;
+    right: 33%;
+    bottom: 15%;
+    left: 7%%;
+    /* placing at a dynamic position relative to its parent container */
     position: absolute;
 }
 
 .signup-form {
-    margin: 150px 10% 0 0;
-    max-width: 400px;
+    max-width: 830px;
 }
 
 .text-input {
     color: #272A23;
     width: 100%;
     height: 25px;
-    margin: 5px 0 20px 0;
+    margin: 5px 0 12px 0;
     border-radius: 2px;
 }
 
@@ -216,8 +220,8 @@ p {
 .block-dropdown {
     color: #272A23;
     width: 50%;
-    height: 15px;
-    margin: 5px 0 20px 0;
+    height: 25px;
+    margin: 5px 0 12px 0;
     border-radius: 2px;
 }
 
@@ -226,11 +230,12 @@ p {
 }
 
 .join-button {
-    margin-top: 20px;
+    margin-left: 40px;
+    margin-top: 5px;
     border-radius: 2px;
-    padding: 15px 32px 15px 32px;
+    padding: 15px 50px 15px 50px;
     text-align: center;
-    font-size: 100%;
+    font-size: 120%;
     background-color: #fff;
     color: #036753;
     display: block;
@@ -242,7 +247,7 @@ p {
 }
 
 #joinus-image {
-    height: 600px;
+    height: 100%;
     width: 400px;
     background-image: url('../images/joinus-image.WebP');
     background-repeat: no-repeat;
