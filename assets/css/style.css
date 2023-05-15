@@ -159,7 +159,7 @@ nav ul {
 /* who we are section */
 
 #whoweare-image {
-    height: 600px;
+    height: 100%;
     max-width: 400px;
     background-image: url('../images/whoweare-image.WebP');
     background-repeat: no-repeat;
@@ -168,21 +168,23 @@ nav ul {
 }
 
 #whoweare-text {
-    text-align: right;
-    vertical-align: center;
-
-    width: auto; 
-    height: auto; /* div size - height and width */
-    max-width: 30%;
-
-    bottom: 200px;
-    right: 15%; 
-    /* placing at a fixed position relative to its parent container */
+    width: 60%;
+    /* div size - height and width */
+    max-width: 830px;
+    height: auto;
+    
+    text-align: left;
+    
+    top: 20%;
+    right: 7%;
+    bottom: 20%;
+    left: 33%;
+    /* placing at a dynamic position relative to its parent container */
     position: absolute;
 }
 
-.text-width {
-    /* width: 60%; */
+p {
+    margin: 10px;
 }
 
 /* join us section */
