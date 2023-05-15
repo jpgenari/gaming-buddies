@@ -391,49 +391,85 @@ p {
 
 }
 
-/* For medium screen sizes from 600px */
+/* For medium screen sizes from 815px */
 
-@media screen and (max-width: 600px) {
-    
+@media screen and (max-width: 815px) {
+
     body {
         padding-top: 50px;
         padding-bottom: 20px;
     }
-    
+
     #logo {
-        font-size: 120%;
+        font-size: 150%;
     }
 
     #menu li {
         font-size: 80%;
-        /* clear: left; */
         float: left;
         margin-left: 10px;
         margin-bottom: 10px;
         line-height: 20px;
         display: block;
     }
-    
+
     #cover-text {
         left: 0;
-        max-width: 90%;
+        max-width: 100%;
         padding: 10px;
         width: auto;
         height: auto;
         right: 0;
     }
-    
-    #menu,
-    #logo {
-        /* line-height: 55px; */
-    }
 
     .main-elements {
-        padding: 0;
+        padding: 5px 0 5px 0;
     }
 
     #whoweare-text {
         right: 0;
-        max-width: 90%;
+        left: 0;
+        width: 100%;
+        float: right;
     }
+
+    #whoweare-image {
+        max-width: 100%;
+    }
+
+    #joinus-form,
+    .signup-form {
+        width: 100%;
+        left: 0;
+        right: 0;
+    }
+
+    #joinus-image {
+        width: 100%;
+    }
+
+    #meetup-text {
+        /* float: left; */
+
+        /* padding: 10px; */
+        width: 97%;
+        height: auto;
+        max-width: 100%;
+
+        text-align: left;
+        vertical-align: middle;
+
+        left: 0;
+        right: 0;
+        top: 10%;
+    }
+
+    .map-wrapper {
+        /* float: left;  */
+        left: 0;
+        right: 0;
+        bottom: 10%;
+        position: absolute;
+    }
+
 }
