@@ -259,40 +259,55 @@ p {
 /* meet up section */
 
 #meetup-image {
+    height: 100%;
+    width: 100%;
     background-image: url('../images/meetup-image.WebP');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 600px;
-    width: 100%;
     overflow: hidden;
 }
 
 .map-wrapper {
+    width: 30%;
+    height: auto;
+    
     float: left;
     
-    left: 15%;
-    bottom: 140px;
+    top: 10%;
+    right: 50%;
+    bottom: 16%;
+    left: 10%;
+    
+    /* placing at a dynamic position relative to its parent container */
+
     position: absolute;
 }
 
 #meetup-text {
-    /* width: 50%; */
-    float: right;
-    text-align: right;
-    vertical-align: center;
-
-    width: 350px;
-    height: 300px;
-
-    right: 15%;
-    bottom: 180px;
+    text-align: left;
+    
+    width: 40%;
+    max-width: 50%;
+    height: auto;
+    
+    top: 25%;
+    right: 10%;
+    bottom: 25%;
+    left: 50%;
+    
     position: absolute;
 }
 
-.token-name-address {
+.token-meetup h3 {
     text-decoration: underline #fff;
+    font-size: 125%;
+}
+
+.token-meetup p {
+    margin: 6px;
     font-style: italic;
+    font-weight: bold;
 }
 
 /* footer section */
