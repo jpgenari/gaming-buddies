@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Roboto:wght@300&display=swap');
 
+/* general rules - concentrate all general rules together */
+
 * {
     margin: 0;
     padding: 0;
@@ -11,9 +13,59 @@ body {
     font-weight: 300;
     padding-top: 95px;
     padding-bottom: 20px;
+    
+    /* settings main body font and padding used for fixed header and footer */
 }
 
-/* fixed header and footer reference https: //www.tutorialrepublic.com/codelab.php?topic=faq&file=css-fixed-positioned-header-and-footer */
+h1,
+h2 {
+    font-family: Nunito Sans, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #272A23;
+
+    /* settings for h1 and h2 elements font, color, spacing and transform */
+}
+
+.main-sections {
+    height: 620px;
+    max-width: 100%;
+    /* overflow: hidden; */
+    position: relative;
+    padding: 10px;
+
+    /* settings for the main sections */
+}
+
+#cover-text,
+#whoweare-text,
+#meetup-text,
+.signup-form {
+    background-color: rgba(3, 103, 83, 0.8);
+    color: #fff;
+    padding: 15px;
+    /* margin: auto; */
+    letter-spacing: 2px;
+
+    /* settings for main text elements - color moved to rule below */
+}
+
+#cover-text h2,
+#whoweare-text h2,
+#meetup-text h2,
+.signup-form h2 {
+    color: #fff;
+    
+    /* rule created to prevend darker background for h2 elements - it was causing background color to double */
+}
+
+#whoweare-text h2,
+#meetup-text h2,
+.signup-form h2 {
+    font-size: 130%;
+}
+
+/* fixed header and footer - reference https: //www.tutorialrepublic.com/codelab.php?topic=faq&file=css-fixed-positioned-header-and-footer */
 
 .fixed-header,
 .fixed-footer {
@@ -32,23 +84,13 @@ body {
     bottom: 0;
 }
 
-/* headings and logo */
-
-h1,
-h2 {
-    font-family: Nunito Sans, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    color: #272A23;
-}
+/* logo and navigation menu section */
 
 #logo {
     float: left;
     font-size: 280%;
     margin-left: 30px;
 }
-
-/* navigation menu */
 
 #menu {
     font-size: 110%;
@@ -79,46 +121,13 @@ nav ul {
     border-bottom: 1px solid #272A23;
 }
 
-/* general rules */ 
 
-.main-elements {
-    height: 620px;
-    max-width: 100%;
-    overflow: hidden;
-    position: relative;
-    padding: 10px;
-}
-
-#cover-text,
-#whoweare-text,
-#meetup-text,
-.signup-form {
-    background-color: rgba(3, 103, 83, 0.8);
-    color: #fff;
-    padding: 15px;
-    /* margin: auto; */
-    letter-spacing: 2px;
-}
-
-#cover-text h2,
-#whoweare-text h2,
-#meetup-text h2,
-.signup-form h2 {
-    color: #fff; /* rule created to prevend darker background for h2 elements - it was causing background color to double */ 
-}
-
-
-#whoweare-text h2,
-#meetup-text h2,
-.signup-form h2 {
-    font-size: 130%;
-}
 
 /* .border-elements {
     border-style: 2px solid #036753;
 } */
 
-/* hero-image and cover text*/
+/* hero section */
 
 #hero-outer {
     height: 600px;
@@ -150,7 +159,7 @@ nav ul {
     position: absolute;
 }
 
-/* who we are element */
+/* who we are section */
 
 #whoweare-image {
     height: 600px;
@@ -179,7 +188,7 @@ nav ul {
     /* width: 60%; */
 }
 
-/* join us element */
+/* join us section */
 
 #joinus-form {
     height: 600px;
@@ -243,7 +252,7 @@ nav ul {
     float: right
 }
 
-/* meet up element */
+/* meet up section */
 
 #meetup-image {
     background-image: url('../images/meetup-image.WebP');
@@ -282,7 +291,7 @@ nav ul {
     font-style: italic;
 }
 
-/* footer element */
+/* footer section */
 
 .social-networks {
     text-align: center;
