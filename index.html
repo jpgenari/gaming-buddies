@@ -89,38 +89,38 @@
 
     <!-- join us section -->
 
-    <section id="joinus" class="main-elements">
-
+    <section id="joinus" class="main-sections">
+    
         <div id="joinus-form">
             <form method="POST" action="https://i.imgur.com/wTO8S4l.jpg" class="signup-form">
-                <h2>Want to join us?</h2>
+                <h2><i class="fa-solid fa-user-plus"></i> Want to join us?</h2>
+                <br>
                 <h3>Sign up below to find your gaming buddy</h3>
                 <br>
                 <label for="fname">First Name</label>
                 <input id="fname" name="first_name" type="text" required class="text-input">
-
+    
                 <label for="lname">Last Name</label>
                 <input id="lname" name="last_name" type="text" required class="text-input">
-
+    
                 <label for="email">Email Address</label>
                 <input type="email" id="email" name="email_address" required class="text-input">
-
-                <label for="your-console">What's Your Console?</label>
-                <input id="your-console" list="consoles" name="your_console" required class="block-dropdown">
-
-                <datalist id="consoles" class="block-dropdown">
-                    <option value="Nintendo Switch">
-                    <option value="PlayStation 5">
-                    <option value="Xbox Series S/X">
-                </datalist>
-
+    
+                <label for="your-console">Your Console?</label>
+                <select id="your-console" name="your-console" class="block-dropdown" required>
+                    <option value="nintendo-switch">Nintendo Switch</option>
+                    <option value="playstation-5">Play Station 5</option>
+                    <option value="xbox">Xbox Series X/S</option>
+                </select>
+    
                 <input class="join-button" type="submit" value="Play!">
             </form>
         </div>
-
-        <div id="joinus-image">role="img" aria-label="Image showing a man and a woman seating on a couch playing video game"></div>
+    
+        <div id="joinus-image" role="img"
+            aria-label="Image showing a man and a woman seating on a couch playing video game"></div>
         <!-- used role="img" + aria-label for accebility -->
-
+    
     </section>
 
     <!-- meet up section -->
