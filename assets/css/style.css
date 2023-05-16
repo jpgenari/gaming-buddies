@@ -419,7 +419,7 @@ p {
         right: 0;
     }
 
-    .main-elements {
+    .main-sections {
         padding: 5px 0 5px 0;
     }
 
@@ -513,7 +513,7 @@ p {
         bottom: 35%;
     }
 
-    .main-elements {
+    .main-sections {
         height: 800px;
     }
 }
