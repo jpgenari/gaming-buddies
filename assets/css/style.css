@@ -277,8 +277,6 @@ p {
 @media screen and (max-width: 1260px) {
 
     #whoweare-text {
-        width: 60%;
-        max-width: 830px;
         inset: 12% 7% 12% 33%;
     }
 
@@ -342,10 +340,10 @@ p {
     }
 
     #whoweare-text {
-        width: 100%;
+        width: auto;
+        max-width: 100%;
         right: 0;
         left: 0;
-        float: right;
     }
 
     #whoweare-image {
@@ -354,7 +352,8 @@ p {
 
     #joinus-form,
     .signup-form {
-        width: 100%;
+        width: auto;
+        max-width: 100%;
         right: 0;
         left: 0;
     }
@@ -364,7 +363,7 @@ p {
     }
 
     #meetup-text {
-        width: 97%;
+        width: auto;
         max-width: 100%;
         top: 10%;
         right: 0;
