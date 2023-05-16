@@ -31,12 +31,36 @@ h2 {
 .main-sections {
     height: 600px;
     width: 100%;
-    /* overflow: hidden; */
-    position: relative;
     padding: 10px 0 10px 0;
+    position: relative;
+
+    /* settings applied to all main sections */
 }
 
-#cover-text,
+.main-images {
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    /* settings applied to all background images */
+}
+
+.position-absolute {
+    position: absolute;
+}
+
+.main-background {
+    background-color: rgba(3, 103, 83, 0.8);
+    color: #fff;
+    padding: 15px;
+    letter-spacing: 2px;
+
+    /* rule to set background and color for all text elements */
+}
+
+/* #cover-text,
 #whoweare-text,
 #meetup-text,
 .signup-form {
@@ -44,25 +68,40 @@ h2 {
     color: #fff;
     padding: 15px;
     letter-spacing: 2px;
-}
+} */
 
-#cover-text h2,
-#whoweare-text h2,
-#meetup-text h2,
-.signup-form h2 {
+.main-background h2 {
     color: #fff;
 
     /* rule created to prevend darker background for h2 elements - it was causing background color to double */
 }
 
-
+/* #cover-text h2,
 #whoweare-text h2,
 #meetup-text h2,
 .signup-form h2 {
+    color: #fff;
+} */
+
+.main-font h2 {
     font-size: 130%;
+
+    /* fixed header and footer - reference https: //www.tutorialrepublic.com/codelab.php?topic=faq&file=css-fixed-positioned-header-and-footer */
 }
 
-/* fixed header and footer - reference https: //www.tutorialrepublic.com/codelab.php?topic=faq&file=css-fixed-positioned-header-and-footer */
+/* #whoweare-text h2,
+#meetup-text h2,
+.signup-form h2 {
+    font-size: 130%;
+} */
+
+.height-auto {
+    height: auto;
+}
+
+.text-left {
+    text-align: left;
+}
 
 .fixed-header,
 .fixed-footer {
@@ -81,6 +120,7 @@ h2 {
 .fixed-footer {
     bottom: 0;
 }
+
 .fixed-footer {
     bottom: 0;
 }
@@ -88,9 +128,9 @@ h2 {
 /* logo and navigation menu section */
 
 #logo {
-    float: left;
     font-size: 280%;
     margin-left: 30px;
+    float: left;
 }
 
 #menu {
@@ -131,54 +171,59 @@ nav ul {
 }
 
 #hero-image {
-    height: 100%;
-    width: 100%;
+    /* height: 100%;
+    width: 100%; */
     background-image: url('../images/hero.image.jpg');
     /* replaced image for immage with suitable size */
-    background-repeat: no-repeat;
+
+    /* background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center; */
 }
 
 #cover-text {
-    font-size: 150%;
-    font-family: Nunito Sans, sans-serif;
-    text-align: left;
-    text-transform: uppercase;
     width: 380px;
     height: 150px;
-    /* div size - height and width */
+
+    font-size: 150%;
+    font-family: Nunito Sans, sans-serif;
+    /* text-align: left; */
+    text-transform: uppercase;
+
     bottom: 100px;
     right: 150px;
     /* placing at a fixed position relative to its parent container */
-    position: absolute;
+    /* position: absolute; */
+
 }
 
 /* who we are section */
 
 #whoweare-image {
-    height: 100%;
-    max-width: 400px;
+    /* height: 100%; */
+    width: 400px;
     background-image: url('..//images/whoweare-image.WebP');
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center; */
 }
 
 #whoweare-text {
     width: 60%;
-    /* div size - height and width */
     max-width: 830px;
-    height: auto;
+    /* height: auto; */
 
-    text-align: left;
+    /* text-align: left; */
 
-    top: 20%;
+    inset: 20% 7% 20% 33%;
+    /* placing at a dynamic position relative to its parent container */
+
+    /* top: 20%;
     right: 7%;
     bottom: 20%;
-    left: 33%;
-    /* placing at a dynamic position relative to its parent container */
-    position: absolute;
+    left: 33%; */
+
+    /* position: absolute; */
 }
 
 p {
@@ -189,14 +234,17 @@ p {
 
 #joinus-form {
     width: 60%;
-    height: auto;
+    /* height: auto; */
 
-    top: 15%;
+    inset: 15% 33% 15% 7%;
+    /* placing at a dynamic position relative to its parent container */
+
+    /* top: 15%;
     right: 33%;
     bottom: 15%;
-    left: 7%%;
-    /* placing at a dynamic position relative to its parent container */
-    position: absolute;
+    left: 7%%; */
+
+    /* position: absolute; */
 }
 
 .signup-form {
@@ -245,54 +293,58 @@ p {
 }
 
 #joinus-image {
-    height: 100%;
+    /* height: 100%; */
     width: 400px;
     background-image: url('../images/joinus-image.WebP');
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center; */
     float: right
 }
 
 /* meet up section */
 
 #meetup-image {
-    height: 100%;
-    width: 100%;
+    /* height: 100%;
+    width: 100%; */
     background-image: url('../images/meetup-image.WebP');
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    overflow: hidden;
+    overflow: hidden; */
 }
 
 .map-wrapper {
     width: 30%;
-    height: auto;
+    /* height: auto; */
 
-    float: left;
+    inset: 10% 50% 16% 10%;
+    /* placing at a dynamic position relative to its parent container */
 
-    top: 10%;
+    /* top: 10%;
     right: 50%;
     bottom: 16%;
-    left: 10%;
-    /* placing at a dynamic position relative to its parent container */
-    position: absolute;
+    left: 10%; */
+
+    /* position: absolute; */
+
+    float: left;
 }
 
 #meetup-text {
-    text-align: left;
-
     width: 40%;
     max-width: 50%;
     height: auto;
 
-    top: 25%;
+    /* text-align: left; */
+
+    inset: 25% 10% 25% 50%;
+    /* top: 25%;
     right: 10%;
     bottom: 25%;
-    left: 50%;
+    left: 50%; */
 
-    position: absolute;
+    /* position: absolute; */
 }
 
 .token-meetup h3 {
@@ -301,9 +353,9 @@ p {
 }
 
 .token-meetup p {
-    margin: 6px;
     font-style: italic;
     font-weight: bold;
+    margin: 6px;
 }
 
 /* footer section */
@@ -328,50 +380,49 @@ p {
 
     #whoweare-text {
         width: 60%;
-        /* div size - height and width */
         max-width: 830px;
-        height: auto;
+        /* height: auto; */
 
-        text-align: left;
+        /* text-align: left; */
 
         inset: 12% 7% 12% 33%;
+        /* placing at a dynamic position relative to its parent container */
         /* top: 12%;
         right: 7%;
         bottom: 12%; 
         left: 33%;  */
-        /* placing at a dynamic position relative to its parent container */
-        position: absolute;
+
+        /* position: absolute; */
     }
 
     .map-wrapper {
-
         width: auto;
         height: 20%;
 
-        top: 60%;
+        inset: 60% 10% 10% 10%;
+        /* placing at a dynamic position relative to its parent container */
+        /* top: 60%;
         right: 10%;
         bottom: 10%;
-        left: 10%;
-        /* placing at a dynamic position relative to its parent container */
+        left: 10%; */
 
-        position: absolute;
+        /* position: absolute; */
     }
 
     #meetup-text {
-
         width: 100%;
-        height: auto;
         max-width: 77%;
+        /* height: auto; */
 
-        text-align: left;
+        /* text-align: left; */
 
-        top: 10%;
+        inset: 10% 10% 42% 10%;
+        /* placing at a dynamic position relative to its parent container */
+        /* top: 10%;
         right: 10%;
         bottom: 42%;
-        left: 10%;
-        /* placing at a dynamic position relative to its parent container */
+        left: 10%; */
     }
-
 }
 
 /* for medium sceen sizes 1000px and down */
@@ -379,13 +430,12 @@ p {
 @media screen and (max-width: 1000px) {
 
     #menu {
-        clear: left;
-        float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
         line-height: 25px;
-    }
+        margin-bottom: 20px;
+        margin-left: 30px;
 
+        float: left;
+    }
 }
 
 /* For medium screen sizes from 815px */
@@ -403,20 +453,23 @@ p {
 
     #menu li {
         font-size: 80%;
-        float: left;
+        line-height: 20px;
+
         margin-left: 10px;
         margin-bottom: 10px;
-        line-height: 20px;
+
+        float: left;
         display: block;
     }
 
     #cover-text {
-        left: 0;
-        max-width: 100%;
-        padding: 10px;
         width: auto;
-        height: auto;
+        max-width: 100%;
+        /* height: auto; */
+
         right: 0;
+        left: 0;
+        padding: 10px;
     }
 
     .main-sections {
@@ -424,9 +477,11 @@ p {
     }
 
     #whoweare-text {
+        width: 100%;
+
         right: 0;
         left: 0;
-        width: 100%;
+
         float: right;
     }
 
@@ -437,8 +492,9 @@ p {
     #joinus-form,
     .signup-form {
         width: 100%;
-        left: 0;
+
         right: 0;
+        left: 0;
     }
 
     #joinus-image {
@@ -446,29 +502,24 @@ p {
     }
 
     #meetup-text {
-        /* float: left; */
-
-        /* padding: 10px; */
         width: 97%;
-        height: auto;
         max-width: 100%;
+        /* height: auto; */
 
-        text-align: left;
-        vertical-align: middle;
+        /* text-align: left; */
+        /* vertical-align: middle; */
 
-        left: 0;
-        right: 0;
         top: 10%;
+        right: 0;
+        left: 0;
     }
 
     .map-wrapper {
-        /* float: left;  */
-        left: 0;
         right: 0;
         bottom: 10%;
-        position: absolute;
+        left: 0;
+        /* position: absolute; */
     }
-
 }
 
 /* For small screen sizes from 550px */
@@ -480,15 +531,18 @@ p {
     }
 
     /* .fixed-header, */
+
     .fixed-footer {
         position: relative;
     }
 
     .fixed-header {
         width: 100%;
-        position: fixed;
-        top: 0;
+
         background-color: #fff;
+
+        top: 0;
+        position: fixed;
         z-index: 9999;
     }
 
@@ -501,12 +555,15 @@ p {
     }
 
     #menu li {
+        line-height: 15px;
+        letter-spacing: 2px;
+
+        margin-right: 20px;
         margin-left: 0;
         margin-bottom: 0;
-        margin-right: 20px;
-        line-height: 15px;
+
         display: block;
-        letter-spacing: 2px;
+
     }
 
     #cover-text {
