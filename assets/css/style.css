@@ -268,23 +268,22 @@ p {
 @media screen and (max-width: 1260px) {
 
     #whoweare-text {
-        top: 13%;   
+        top: 13%;
     }
 
     .map-wrapper {
-        width: auto;
+        width: 100%;
         height: 20%;
         inset: 60% 10% 10% 10%;
     }
 
     #meetup-text {
         width: 100%;
-        max-width: 77%;
         inset: 10% 10% 42% 10%;
     }
 }
 
-/* for medium sceen sizes 1000px and down */
+/* for medium screen sizes 1000px and down */
 
 @media screen and (max-width: 1000px) {
 
@@ -304,7 +303,7 @@ p {
         padding-top: 40x;
         padding-bottom: 20px;
     }
-    
+
     .main-sections {
         padding: 5px 0 5px 0;
     }
@@ -334,6 +333,7 @@ p {
         top: 14%;
         right: 0;
         left: 0;
+        text-align: center;
     }
 
     #whoweare-image {
@@ -341,10 +341,10 @@ p {
     }
 
     #joinus-form {
-        width: auto;
-        max-width: 100%;
+        width: 100%;
         right: 0;
         left: 0;
+        text-align: center;
     }
 
     #joinus-image {
@@ -352,16 +352,15 @@ p {
     }
 
     #meetup-text {
-        width: auto;
-        max-width: 100%;
-        top: 10%;
+        top: 12%;
         right: 0;
         left: 0;
+        text-align: center;
     }
 
     .map-wrapper {
         right: 0;
-        bottom: 10%;
+        bottom: 5%;
         left: 0;
     }
 }
@@ -372,6 +371,10 @@ p {
     body {
         padding-top: 55px;
         padding-bottom: 0;
+    }
+
+    .main-sections {
+        height: 800px;
     }
 
     .fixed-footer {
@@ -404,10 +407,22 @@ p {
     }
 
     #cover-text {
-        bottom: 35%;
+        bottom: 25%;
     }
 
-    .main-sections {
-        height: 800px;
+    #whoweare-text {
+        top: 20%;
+    }
+
+    #joinus-form {
+        top: 23%
+    }
+
+    #meetup-text {
+        top: 19%;
+    }
+
+    .map-wrapper {
+        bottom: 10%;
     }
 }
