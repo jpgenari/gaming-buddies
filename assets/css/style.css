@@ -137,12 +137,12 @@ nav ul {
 
 #cover-text {
     width: 380px;
-    height: 150px;
+    height: auto;
     font-size: 150%;
     font-family: Nunito Sans, sans-serif;
     text-transform: uppercase;
-    bottom: 100px;
-    right: 150px;
+    bottom: 15%;
+    right: 15%;
 }
 
 /* who we are section */
@@ -153,9 +153,9 @@ nav ul {
 }
 
 #whoweare-text {
-    width: 60%;
-    max-width: 830px;
-    inset: 20% 7% 20% 33%;
+    width: 55%;
+    top: 15%;
+    right: 7%;
 }
 
 p {
@@ -165,12 +165,9 @@ p {
 /* join us section */
 
 #joinus-form {
-    width: 60%;
-    inset: 15% 33% 15% 7%;
-}
-
-.signup-form {
-    max-width: 830px;
+    width: 55%;
+    top: 17%;
+    left: 7%;
 }
 
 .text-input {
@@ -230,15 +227,13 @@ p {
 
 .map-wrapper {
     width: 30%;
-    inset: 10% 50% 16% 10%;
-    float: left;
+    inset: 10% 50% 16% 7%;
 }
 
 #meetup-text {
-    width: 40%;
-    max-width: 50%;
-    height: auto;
-    inset: 25% 10% 25% 50%;
+    width: 45%;
+    top: 23%;
+    right: 7%;
 }
 
 .token-meetup h3 {
@@ -264,7 +259,7 @@ p {
 
 .social-networks i {
     font-size: 160%;
-    margin: 1%;
+    margin: 1% 4%;
     color: #272A23;
 }
 
@@ -273,7 +268,7 @@ p {
 @media screen and (max-width: 1260px) {
 
     #whoweare-text {
-        inset: 12% 7% 12% 33%;
+        top: 13%;   
     }
 
     .map-wrapper {
@@ -306,8 +301,12 @@ p {
 @media screen and (max-width: 815px) {
 
     body {
-        padding-top: 50px;
+        padding-top: 40x;
         padding-bottom: 20px;
+    }
+    
+    .main-sections {
+        padding: 5px 0 5px 0;
     }
 
     #logo {
@@ -324,20 +323,15 @@ p {
     }
 
     #cover-text {
-        width: auto;
-        max-width: 100%;
+        width: 100%;
         right: 0;
         left: 0;
-        padding: 10px;
-    }
-
-    .main-sections {
-        padding: 5px 0 5px 0;
+        text-align: center;
     }
 
     #whoweare-text {
-        width: auto;
-        max-width: 100%;
+        width: 100%;
+        top: 14%;
         right: 0;
         left: 0;
     }
@@ -346,8 +340,7 @@ p {
         width: 100%;
     }
 
-    #joinus-form,
-    .signup-form {
+    #joinus-form {
         width: auto;
         max-width: 100%;
         right: 0;
