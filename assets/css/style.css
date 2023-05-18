@@ -73,12 +73,22 @@ h2 {
     text-align: left;
 }
 
-.fixed-header,
+.fixed-header {
+    width: 100%;
+    position: fixed;
+    background: #fff;
+    padding: 10px 0;
+    top: 0;
+    z-index: 9999;
+    /* added to prevent content overlapping header */
+}
+
 .fixed-footer {
     width: 100%;
     position: fixed;
     background: #fff;
     padding: 10px 0;
+    bottom: 0;
 }
 
 .fixed-header {
@@ -86,29 +96,18 @@ h2 {
     z-index: 9999; /* added to prevent content overlapping header */
 }
 
-.fixed-footer {
-    bottom: 0;
-}
-
-.fixed-footer {
-    bottom: 0;
-}
-
 /* logo and navigation menu section */
 
 #logo {
     font-size: 280%;
     margin-left: 30px;
+    line-height: 75px;
     float: left;
 }
 
 #menu {
     font-size: 110%;
     letter-spacing: 3px;
-}
-
-#menu,
-#logo {
     line-height: 75px;
 }
 
