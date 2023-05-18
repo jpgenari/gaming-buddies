@@ -272,13 +272,14 @@ p {
     }
 
     .map-wrapper {
-        width: 100%;
+        width: 79%;
         height: 20%;
         inset: 60% 10% 10% 10%;
+        ;
     }
 
     #meetup-text {
-        width: 100%;
+        width: 77%;
         inset: 10% 10% 42% 10%;
     }
 }
@@ -306,6 +307,10 @@ p {
 
     .main-sections {
         padding: 5px 0 5px 0;
+    }
+
+    .main-background {
+        padding: 20px 0 20px 0;
     }
 
     #logo {
@@ -352,6 +357,7 @@ p {
     }
 
     #meetup-text {
+        width: 100%;
         top: 12%;
         right: 0;
         left: 0;
@@ -359,6 +365,7 @@ p {
     }
 
     .map-wrapper {
+        width: 100%;
         right: 0;
         bottom: 5%;
         left: 0;
@@ -415,7 +422,7 @@ p {
     }
 
     #joinus-form {
-        top: 23%
+        top: 21%
     }
 
     #meetup-text {
