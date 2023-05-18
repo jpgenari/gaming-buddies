@@ -91,11 +91,6 @@ h2 {
     bottom: 0;
 }
 
-.fixed-header {
-    top: 0;
-    z-index: 9999; /* added to prevent content overlapping header */
-}
-
 /* logo and navigation menu section */
 
 #logo {
