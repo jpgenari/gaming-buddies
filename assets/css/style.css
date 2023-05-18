@@ -204,12 +204,14 @@ p {
 }
 
 .join-button {
-    margin-left: 40px;
+    margin-left: 5px;
     margin-top: 5px;
     border-radius: 2px;
     padding: 15px 50px 15px 50px;
     text-align: center;
+    letter-spacing: 4px;
     font-size: 120%;
+    font-weight: 900;
     background-color: #fff;
     color: #036753;
     display: block;
