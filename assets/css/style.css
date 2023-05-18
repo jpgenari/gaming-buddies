@@ -138,7 +138,7 @@ nav ul {
 }
 
 #hero-image {
-    background-image: url('../images/hero.image.jpg'); /* replaced image for immage with suitable size */
+    background-image: url('../images/hero-image.webp'); /* replaced image for immage with suitable size */
 }
 
 #cover-text {
@@ -155,7 +155,7 @@ nav ul {
 
 #whoweare-image {
     width: 400px;
-    background-image: url('..//images/whoweare-image.WebP');
+    background-image: url('..//images/whoweare-image.webp');
 }
 
 #whoweare-text {
@@ -224,14 +224,14 @@ p {
 
 #joinus-image {
     width: 400px;
-    background-image: url('../images/joinus-image.WebP');
+    background-image: url('../images/joinus-image.webp');
     float: right
 }
 
 /* meet up section */
 
 #meetup-image {
-    background-image: url('../images/meetup-image.WebP');
+    background-image: url('../images/meetup-image.webp');
 }
 
 .map-wrapper {
