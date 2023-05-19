@@ -88,26 +88,27 @@ The website has been tested for its functionalities working as expected on multi
 
   - Desktop steps below:
 
-        1. Website opens showing its header with both logo and menu nested inside it and landing page;
-        2. Hovering over menu items an underline shows up to indicate to the user button is clickable actionable;
-        3. Clicking on "Home" button leads to landing page and hero image section centralized to the viewpoint;
-        4. Clicking on "Who We Are" button leads to the who we are section centralized to the viewpoint;
-        5. Clicking on "Join Us!" button leads to the join us section centralized to the viewpoint;
-            _ Hovering over the text boxes should turn their boarders red to indicate action;
-            - Hovering over the "START" or send button turns it into red to indicate button is clickable and actionable;
-            - When clicking on the "START" or send button with boxes unfilled or filled with incorrect information (email address) or dropdown unselected, a warning message pops up on the first missing information item - preventing form to be submitted with missing information;
-            - After clicking on the "START" or send button user is led to sign up confirmation page from Code Institute dump form showing submitted information.
-        6. Clicking on "Meet Up" button leads tp the meet up section centralized to the viewpoint;
-            - On the embedded Google Maps, clicking on "Vier Larger Maps" opens a window leading to Google Maps with the address selected where the users can view directions to the meet up place.
-        7. Clicking on any social network icon nested inside footer opens a new window leading to the specific social network;
-        8. Scrolling down and up instead of clicking on menu buttons will move the viewpoint throughout the sections;
-        9. When navigating on the page either through navigation buttons or scrolling, both header and footer should stay fixed at the top and bottom respectively to facilitate navigation;
-        10. When performing all actions above, website layout will follow its main design found on the screenshots attached above.
+    1. Website opens showing its header with both logo and menu nested inside it and landing page;
+    2. Hovering over menu items an underline shows up to indicate to the user button is clickable actionable;
+    3. Clicking on "Home" button leads to landing page and hero image section centralized to the viewpoint;
+    4. Clicking on "Who We Are" button leads to the who we are section centralized to the viewpoint;
+    5. Clicking on "Join Us!" button leads to the join us section centralized to the viewpoint;
+        _ Hovering over the text boxes should turn their boarders red to indicate action;
+        - Hovering over the "START" or send button turns it into red to indicate button is clickable and actionable;
+        - When clicking on the "START" or send button with boxes unfilled or filled with incorrect information (email address) or dropdown unselected, a warning message pops up on the first missing information item - preventing form to be submitted with missing information;
+        - After clicking on the "START" or send button user is led to sign up confirmation page from Code Institute dump form showing submitted information.
+    6. Clicking on "Meet Up" button leads tp the meet up section centralized to the viewpoint;
+        - On the embedded Google Maps, clicking on "Vier Larger Maps" opens a window leading to Google Maps with the address selected where the users can view directions to the meet up place.
+    7. Clicking on any social network icon nested inside footer opens a new window leading to the specific social network;
+    8. Scrolling down and up instead of clicking on menu buttons will move the viewpoint throughout the sections;
+    9. When navigating on the page either through navigation buttons or scrolling, both header and footer should stay fixed at the top and bottom respectively to facilitate navigation;
+    10. When performing all actions above, website layout will follow its main design found on the screenshots attached above.
 
-  - Tablet steps below:
+    - Tablet steps below:
 
     - Steps from 1 to 9 should be the same as the functionalities will not change;
-        10. Website layout will follow its tablet or medium size screens layout (below 815px)
+    <br>
+    10. Website layout will follow its tablet or medium size screens layout (below 815px)
 
 
 ### Validator Testing
