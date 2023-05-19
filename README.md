@@ -6,7 +6,7 @@ Its idea came around with the release on the newest Nintendo game, Zelda Tears o
 
 We do value our online gaming buddies, however, we also want to meet out buddies in person, come play with us!
 
-![Responsive Mockup](../assets/images/gaming-buddies-mockup.png)
+![Responsive Mockup](../gaming-buddies/assets/images/gaming-buddies-mockup.png)
 
 ## Features
 
