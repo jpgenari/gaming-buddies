@@ -18,7 +18,7 @@ We do value our online gaming buddies, however, we also want to meet out buddies
 
   - The bar fixed at the top of the page allowing easy navigation when users scroll through the page elements across all devices, with a responsive design.
 
-![Logo and Nav Bar](../assets/images/gaming-buddies-logo-and-nav.png)
+![Logo and Nav Bar](https://github.com/jpgenari/gaming-buddies/blob/main/assets/images/gaming-buddies-logo-and-nav.png)
 
 - __The landing page image__
 
@@ -26,7 +26,7 @@ We do value our online gaming buddies, however, we also want to meet out buddies
 
   - It also includes a text overlay allowing users to reinforce the website purpose.
 
-![Landing Page](../assets/images/gaming-buddies-hero-image.png)
+![Landing Page](https://github.com/jpgenari/gaming-buddies/blob/main/assets/images/gaming-buddies-hero-image.png)
 
 - __Who We Are section__
 
@@ -34,7 +34,7 @@ We do value our online gaming buddies, however, we also want to meet out buddies
 
   - THe section also features an image showing a fliperama control board to captivate them to play games on site.
 
-![Who We Are Section](../assets/images/gaming-buddies-hero-image.png)
+![Who We Are Section](https://github.com/jpgenari/gaming-buddies/blob/main/assets/images/gaming-buddies-who-we-are.png)
 
 ### Features Left to Implement
 
