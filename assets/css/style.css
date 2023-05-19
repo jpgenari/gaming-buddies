@@ -65,7 +65,7 @@ h2 {
 
 .main-font h2 {
     font-size: 130%;
-    /* fixed header and footer - reference https: //www.tutorialrepublic.com/codelab.php?topic=faq&file=css-fixed-positioned-header-and-footer */
+    /* fixed header and footer - reference https://bit.ly/fixedheaderfooter */
 }
 
 .height-auto {
@@ -231,7 +231,16 @@ p {
 
 .map-wrapper {
     width: 30%;
-    inset: 10% 50% 16% 7%;
+    height: 70%;
+    top: 12%;
+    left: 7%;
+}
+
+iframe {
+    display: block;
+    height: 100%;
+    width: 100%;
+    /* solution applied to remove % from height and width on html file reference: https://bit.ly/googlemapsiframe */
 }
 
 #meetup-text {
@@ -276,14 +285,13 @@ p {
     }
 
     .map-wrapper {
-        width: 79%;
+        width: 80%;
         height: 20%;
         inset: 60% 10% 10% 10%;
-        ;
     }
-
+    
     #meetup-text {
-        width: 77%;
+        width: 80%;
         inset: 10% 10% 42% 10%;
     }
 }
