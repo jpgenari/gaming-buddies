@@ -323,17 +323,16 @@ iframe {
     }
 
     #logo {
-        font-size: 150%;
+        font-size: 250%;
     }
 
     #menu li {
-        font-size: 80%;
+        font-size: 110%;
         line-height: 10px;
-        margin-top: 30px;
+        margin-top: 0;
         margin-left: 10px;
-        margin-bottom: 10px;
+        margin-bottom: 0;
         float: left;
-        display: block;
     }
 
     #cover-text {
@@ -391,8 +390,8 @@ iframe {
 @media screen and (max-width: 550px) {
             
     body {
-            padding-top: 55px;
-            padding-bottom: 0;
+        padding-top: 55px;
+        padding-bottom: 0;
     }
     
     .main-sections {
@@ -412,6 +411,7 @@ iframe {
     }
     
     #logo {
+        font-size: 150%;
         line-height: 35px;
     }
     
@@ -420,6 +420,7 @@ iframe {
     }
     
     #menu li {
+        font-size: 80%;
         line-height: 15px;
         letter-spacing: 2px;
         margin-top: 3px;
@@ -454,6 +455,7 @@ iframe {
 @media screen and (max-width: 375px) {
     
     #menu li {
+        font-size: 65%;
         letter-spacing: 1px;
     }
     
