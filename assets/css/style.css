@@ -56,7 +56,7 @@ h2 {
 
 .main-background h2 {
     color: #fff;
-    /* rule created to prevend darker background for h2 elements - it was causing background color to double */
+    /* rule created to prevent darker background for h2 elements - it was causing background color to double */
 }
 
 .padding-text {
@@ -386,7 +386,7 @@ iframe {
     }
 }
     
-/* For small screen sizes 550px and down */
+/* For extra-small screen sizes 550px and down */
     
 @media screen and (max-width: 550px) {
             
