@@ -110,7 +110,8 @@ The website has been tested for its functionalities working as expected on multi
     - **Tablets** for tablets layout will follow two variants:
     
       -  *Large - up to 815px*
-        ![iPad Air](/assets/images/gaming-buddies-ipad-air.png)
+
+![iPad Air](/assets/images/gaming-buddies-ipad-air.png)
 
     
 
