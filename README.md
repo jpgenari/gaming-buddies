@@ -110,16 +110,12 @@ The website has been tested for its functionalities working as expected on multi
     - **Tablets** for tablets layout will follow two variants:
     
       -  *Large - up to 815px*
+        ![iPad Air](/assets/images/gaming-buddies-ipad-air.png)
+      - *Medium - below 815px*
+        ![iPad Mini](/assets/images/gaming-buddies-ipad-mini.png)
 
-![iPad Air](/assets/images/gaming-buddies-ipad-air.png)
-
-- *Medium - below 815px*
-
-![iPad Mini](/assets/images/gaming-buddies-ipad-mini.png)
-
-- **Mobile** layout:
-
-![iPhone 12 Pro](/assets/images/gaming-buddies-iphone-12-pro.png)
+    - **Mobile** layout:
+        ![iPhone 12 Pro](/assets/images/gaming-buddies-iphone-12-pro.png)
 
 - __Tested Browsers and Devices__
 
