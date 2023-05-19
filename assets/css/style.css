@@ -19,7 +19,7 @@ body {
 
 h1,
 h2 {
-    font-family: Nunito Sans, sans-serif;
+    font-family: "Nunito Sans", sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
     color: #272A23;
@@ -142,7 +142,7 @@ nav ul {
     width: 380px;
     height: auto;
     font-size: 150%;
-    font-family: Nunito Sans, sans-serif;
+    font-family: "Nunito Sans", sans-serif;
     text-transform: uppercase;
     bottom: 15%;
     right: 15%;
@@ -305,7 +305,7 @@ p {
 @media screen and (max-width: 815px) {
 
     body {
-        padding-top: 40x;
+        padding-top: 40px;
         padding-bottom: 20px;
     }
 
@@ -319,7 +319,8 @@ p {
 
     #menu li {
         font-size: 80%;
-        line-height: 20px;
+        line-height: 10px;
+        margin-top: 30px;
         margin-left: 10px;
         margin-bottom: 10px;
         float: left;
@@ -332,7 +333,7 @@ p {
         left: 0;
         text-align: center;
     }
-
+    
     #whoweare-text {
         width: 100%;
         top: 14%;
@@ -340,26 +341,26 @@ p {
         left: 0;
         text-align: center;
     }
-
+    
     #whoweare-image {
         width: 100%;
     }
-
+    
     #joinus-form {
         width: 100%;
         right: 0;
         left: 0;
         text-align: center;
     }
-
+    
     .join-button {
         margin: auto;
     }
-
+    
     #joinus-image {
         width: 100%;
     }
-
+    
     #meetup-text {
         width: 100%;
         top: 12%;
@@ -367,7 +368,7 @@ p {
         left: 0;
         text-align: center;
     }
-
+    
     .map-wrapper {
         width: 100%;
         right: 0;
@@ -375,23 +376,24 @@ p {
         left: 0;
     }
 }
-
+    
 /* For small screen sizes 550px and down */
-
+    
 @media screen and (max-width: 550px) {
+            
     body {
-        padding-top: 55px;
-        padding-bottom: 0;
+            padding-top: 55px;
+            padding-bottom: 0;
     }
-
+    
     .main-sections {
         height: 800px;
     }
-
+    
     .fixed-footer {
         position: relative;
     }
-
+    
     .fixed-header {
         width: 100%;
         background-color: #fff;
@@ -399,41 +401,66 @@ p {
         position: fixed;
         z-index: 9999;
     }
-
+    
     #logo {
         line-height: 35px;
     }
-
+    
     #menu {
         margin-bottom: 0;
     }
-
+    
     #menu li {
         line-height: 15px;
         letter-spacing: 2px;
+        margin-top: 3px;
         margin-right: 20px;
         margin-left: 0;
         margin-bottom: 0;
-        display: block;
     }
-
+    
     #cover-text {
         bottom: 25%;
     }
-
+    
     #whoweare-text {
         top: 20%;
     }
-
+    
     #joinus-form {
         top: 21%
     }
-
+    
     #meetup-text {
         top: 15%;
     }
-
+    
     .map-wrapper {
         bottom: 10%;
+    }
+}
+    
+/* For small screen sizes 375px and down */
+    
+@media screen and (max-width: 375px) {
+    
+    #menu li {
+        letter-spacing: 1px;
+    }
+    
+    #cover-text {
+        bottom: 40%;
+    }
+    
+    #whoweare-text {
+        top: 10%;
+    }
+    
+    #joinus-form {
+        top: 15%
+    }
+    
+    #meetup-text {
+        top: 10%;
     }
 }
