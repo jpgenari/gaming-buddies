@@ -113,7 +113,32 @@ The website has been tested for its functionalities working as expected on multi
 
 ![iPad Air](/assets/images/gaming-buddies-ipad-air.png)
 
-    
+      - *Medium - below 815px*
+
+![iPad Mini](/assets/images/gaming-buddies-ipad-mini.png)
+
+    - **Mobile** layout:
+
+![iPhone 12 Pro](/assets/images/gaming-buddies-iphone-12-pro.png)
+
+- __Tested Browsers and Devices__
+
+    - Desktop:
+      - Google Chrome
+      - Mozilla Firefox
+      - Apple Safari
+    - Tablet *tested through Google Chrome Inspector*:
+      - *iPad Air*
+      - *iPad Mini*
+      - *Surface Pro 7*
+      - *Google Nest Hub* 
+    - Mobile *tested through Google Chrome Inspector*:
+      - iPhone 13 Pro (Google Chrome, Mozilla Firefox and Apple Safari)
+      - *iPhone SE*
+      - *iPhone XR*
+      - *Pixel 5*
+      - *Samsung Galaxy S8+*
+      - *Samsung Galaxy S20 Ultra*
 
 
 ### Validator Testing
