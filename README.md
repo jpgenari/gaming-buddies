@@ -86,7 +86,8 @@ The website has been tested for its functionalities working as expected on multi
 
 ### Workflow testing
 
-- Functionalities:
+- __Functionalities__
+  
     - Website opens showing its header with both logo and menu nested inside it and landing page;
     - Hovering over menu items an underline shows up to indicate to the user button is clickable actionable;
     - Clicking on "Home" button leads to landing page and hero image section centralized to the viewpoint;
@@ -102,7 +103,14 @@ The website has been tested for its functionalities working as expected on multi
     - Scrolling down and up instead of clicking on menu buttons will move the viewpoint throughout the sections;
     - When navigating on the page either through navigation buttons or scrolling on desktop or tablet, both header and footer should stay fixed at the top and bottom respectively to facilitate navigation. On mobile, for viewpoin optimization the footer changes to relative position hidding when scrolling up.
 
-- Layout:
+- __Layout and Design__
+
+    - **Desktop** layout will follow main website design seen on attached screenshots above;
+    
+    - **Tablets** for tablets layout will follow two variants:
+    
+      -  *Large - up to 815px*
+        ![iPad Air](/assets/images/gaming-buddies-ipad-air.png)
 
     
 
