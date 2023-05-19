@@ -62,7 +62,7 @@ We do value our online gaming buddies, however, we also want to meet out buddies
 
 ![Footer Section](/assets/images/gaming-buddies-footer.png)
 
-### Features Left to Implement
+### Features Left to Implement or Future Features
 
 - __Gallery page / section__
 
