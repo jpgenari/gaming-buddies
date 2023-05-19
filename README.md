@@ -113,11 +113,11 @@ The website has been tested for its functionalities working as expected on multi
 
 ![iPad Air](/assets/images/gaming-buddies-ipad-air.png)
 
-      - *Medium - below 815px*
+- *Medium - below 815px*
 
 ![iPad Mini](/assets/images/gaming-buddies-ipad-mini.png)
 
-    - **Mobile** layout:
+- **Mobile** layout:
 
 ![iPhone 12 Pro](/assets/images/gaming-buddies-iphone-12-pro.png)
 
@@ -140,8 +140,17 @@ The website has been tested for its functionalities working as expected on multi
       - *Samsung Galaxy S8+*
       - *Samsung Galaxy S20 Ultra*
 
-
 ### Validator Testing
+
+- HTML
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjpgenari.github.io%2Fgaming-buddies%2Findex.html).
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjpgenari.github.io%2Fgaming-buddies%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).
+- Accessibility
+ - No error  were found when passing through the official [WAVE evaluation tool](https://wave.webaim.org/report#/https://jpgenari.github.io/gaming-buddies/);
+ - Scored 100 for Accessbility when passing through Google Chrome Inspector Lighthouse
+![Lighthouse](/assets/images/gaming-buddies-lighthouse.png)
+
 
 ### Bugs
 
