@@ -131,6 +131,7 @@ nav ul {
 /* hero section */
 
 #hero-outer {
+    padding-top: 0;
     overflow: hidden;
 }
 
