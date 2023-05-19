@@ -345,7 +345,7 @@ iframe {
     
     #whoweare-text {
         width: 100%;
-        top: 14%;
+        top: 12%;
         right: 0;
         left: 0;
         text-align: center;
@@ -433,7 +433,7 @@ iframe {
     }
     
     #whoweare-text {
-        top: 20%;
+        top: 15%;
     }
     
     #joinus-form {
@@ -462,7 +462,7 @@ iframe {
     }
     
     #whoweare-text {
-        top: 10%;
+        top: 5%;
     }
     
     #joinus-form {
@@ -470,6 +470,6 @@ iframe {
     }
     
     #meetup-text {
-        top: 10%;
+        top: 15%;
     }
 }
