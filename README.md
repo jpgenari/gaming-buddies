@@ -163,18 +163,18 @@ __Solved Bugs__
 
     - Code example with bug:
   
-    '''
+    ```
     <section>
         <div id="image"></div>
         <div id="text-box" class="size positioning padding">
             <h2>text</h2>
         </div>
     </section>
-    '''
+    ```
 
     - Code example fixed:
   
-    '''
+    ```
     <section>
         <div id="image"></div>
         <div id="text-box" class="size positioning>
@@ -183,7 +183,7 @@ __Solved Bugs__
             </div>
         </div>
     </section>
-    '''
+    ```
 
   - A new div element was created inside the first div and the padding was applied to the enclosed div, making the padding to contained inside the parent div and respecting its size.
   
@@ -191,7 +191,7 @@ __Solved Bugs__
   - When running HTML checker W3C validator, the solution applied to make the iframe dynamic by applying its width and height to 100% - in order to force it to fit its div wraper - an error returned where % values were not valid.
   - Before applying the value 100% it had been tried to remove values from HTML and apply CSS rules, which did not work. After extra online research, the article [How to Create a Full-screen iFrame with 100% Height](https://www.tutorialrepublic.com/faq/how-to-create-a-full-screen-iframe-with-100-percent-height.php#:~:text=You%20can%20simply%20set%20the,height%20and%20width%20of%20100%25.) showed a solution which fixed the bug.
   
-    '''
+    ```
     .map-wrapper { /*div enclosing iframe*/
         width: 30%;
         height: 70%;
@@ -203,9 +203,15 @@ __Solved Bugs__
         height: 100%;
         width: 100%;
     }
-    '''
+    ```
 
 ### Unfixed Bugs
+
+  - On final development stage, it was tried to add a favicon to the website. When running the code either local or with CodeAnywhere preview it works as expected, however, when deployed on GitHub Pages it does not work. A few solutions have been tried without fixing the bug.
+
+```
+<link rel="shortcut icon" type="image/x-icon" href="/assets/images/favicon.ico">
+```
 
 ## Deployment
 
