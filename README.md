@@ -215,6 +215,13 @@ __Solved Bugs__
 
 ## Deployment
 
+- The website was deployed to GitHub pages. Follow below the stops taken:
+  - In the GitHub repository, navigate to the Settings tab;
+  - Go to the Pages settings, and under Source select on the drop-down menu, select the Main Branch and save;
+  - After saving, hold on a little bit and the page will automatically refresh with the available url and a button to visit site.
+
+The live link can be found here - <https://jpgenari.github.io/gaming-buddies/>
+
 ## Credits
 
 ### Content
