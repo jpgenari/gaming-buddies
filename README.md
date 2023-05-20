@@ -154,14 +154,63 @@ The website has been tested for its functionalities working as expected on multi
 
 ### Bugs
 
+When developing the website multiple minor bugs came up specially, most of them related to making images fit and applying proper styling. However, two bugs stood up out as in order to fix them it was needed to make to the html structure alongside css.
+
+__Solved Bugs__
+
+- __Padding__
+  - After achieving final design state and styling, when deploying the website it was noticed an extra white board withing the images while some of the text boxes where hitting the end of viewpointwith 100% width in mobile layout - the bug was not noticeable on desktop. With Inspect tool, it was flagged the bug was being caused by a 15px padding applied to the boxes only, pushing other content 15px from right side - removing the padding caused the text boxes to lose the padding between text and edge of borders also breaking the design.
+
+    - Code example with bug:
+  
+    '''
+    <section>
+        <div id="image"></div>
+        <div id="text-box" class="size positioning padding">
+            <h2>text</h2>
+        </div>
+    </section>
+    '''
+
+    - Code example fixed:
+  
+    '''
+    <section>
+        <div id="image"></div>
+        <div id="text-box" class="size positioning>
+            <div class="padding">
+                <h2>text</h2>
+            </div>
+        </div>
+    </section>
+    '''
+
+  - A new div element was created inside the first div and the padding was applied to the enclosed div, making the padding to contained inside the parent div and respecting its size.
+  
+- __Google Maps iframe__
+  - When running HTML checker W3C validator, the solution applied to make the iframe dynamic by applying its width and height to 100% - in order to force it to fit its div wraper - an error returned where % values were not valid.
+  - Before applying the value 100% it had been tried to remove values from HTML and apply CSS rules, which did not work. After extra online research, the article [How to Create a Full-screen iFrame with 100% Height](https://www.tutorialrepublic.com/faq/how-to-create-a-full-screen-iframe-with-100-percent-height.php#:~:text=You%20can%20simply%20set%20the,height%20and%20width%20of%20100%25.) showed a solution which fixed the bug.
+  
+    '''
+    .map-wrapper { /*div enclosing iframe*/
+        width: 30%;
+        height: 70%;
+        top: 12%;
+        left: 7%;
+    }
+    iframe {
+        display: block; /*tag display: block made the width and height set on CSS control the iframe dimensions*/
+        height: 100%;
+        width: 100%;
+    }
+    '''
+
 ### Unfixed Bugs
 
-
-
 ## Deployment
+
 ## Credits
 
 ### Content
 
 ### Media
-
