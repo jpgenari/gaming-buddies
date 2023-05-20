@@ -105,11 +105,13 @@ The website has been tested for its functionalities working as expected on multi
 
 - __Layout and Design__
 
+[Am I Reponsive?](https://ui.dev/amiresponsive?url=https://jpgenari.github.io/gaming-buddies/index.html) shows all availble common layouts.
+
     - **Desktop** layout will follow main website design seen on attached screenshots above;
     
-    - **Tablets** for tablets layout will follow two variants:
+    - **Tablets** layout will follow two variants:
     
-      -  *Large - up to 815px*
+      -  *Large - down to 815px*
     
         ![iPad Air](/assets/images/gaming-buddies-ipad-air.png)
       
