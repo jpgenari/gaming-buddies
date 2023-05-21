@@ -133,14 +133,15 @@ The website has been tested for its functionalities working as expected on multi
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjpgenari.github.io%2Fgaming-buddies%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).
 - Accessibility
- - No error  were found when passing through the official [WAVE evaluation tool](https://wave.webaim.org/report#/https://jpgenari.github.io/gaming-buddies/);
- - Scored 100 for Accessibility when passing through Google Chrome Inspector Lighthouse
+  - No error  were found when passing through the official [WAVE evaluation tool](https://wave.webaim.org/report#/https://jpgenari.github.io/gaming-buddies/);
+  - Scored 100 for Accessibility when passing through Google Chrome Inspector Lighthouse
+
 ![Lighthouse](/assets/images/gaming-buddies-lighthouse.png)
 
 
 ### Bugs
 
-When developing the website multiple minor bugs came up specially, most of them related to making images fit and applying proper styling. However, two bugs stood up out as in order to fix them it was needed to make to the html structure alongside css.
+When developing the website multiple minor bugs came up, most of them related to images not fitting and styling. However, three bugs stood up as in order to fix them it was needed updates to both HTML structure alongside CSS styling.
 
 __Solved Bugs__
 
