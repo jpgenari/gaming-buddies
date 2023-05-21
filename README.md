@@ -66,7 +66,7 @@ We do value our online gaming buddies, however, we also want to meet out buddies
 
 - __Gallery page / section__
 
-    - This future feature will feature photographies shot from community meet ups.
+    - This future feature will feature photos shot from community meet ups.
 
 - __New Games page / section__
 
@@ -105,7 +105,7 @@ The website has been tested for its functionalities working as expected on multi
 
 - __Layout and Design__
 
-[Am I Reponsive?](https://ui.dev/amiresponsive?url=https://jpgenari.github.io/gaming-buddies/index.html) shows all availble common layouts.
+[Am I Responsive?](https://ui.dev/amiresponsive?url=https://jpgenari.github.io/gaming-buddies/index.html) shows all available common layouts.
 
 - __Tested Browsers and Devices__
 
@@ -134,7 +134,7 @@ The website has been tested for its functionalities working as expected on multi
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjpgenari.github.io%2Fgaming-buddies%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).
 - Accessibility
  - No error  were found when passing through the official [WAVE evaluation tool](https://wave.webaim.org/report#/https://jpgenari.github.io/gaming-buddies/);
- - Scored 100 for Accessbility when passing through Google Chrome Inspector Lighthouse
+ - Scored 100 for Accessibility when passing through Google Chrome Inspector Lighthouse
 ![Lighthouse](/assets/images/gaming-buddies-lighthouse.png)
 
 
@@ -145,7 +145,7 @@ When developing the website multiple minor bugs came up specially, most of them 
 __Solved Bugs__
 
 - __Padding__
-  - After achieving final design state and styling, when deploying the website it was noticed an extra white board withing the images while some of the text boxes where hitting the end of viewpointwith 100% width in mobile layout - the bug was not noticeable on desktop. With Inspect tool, it was flagged the bug was being caused by a 15px padding applied to the boxes only, pushing other content 15px from right side - removing the padding caused the text boxes to lose the padding between text and edge of borders also breaking the design.
+  - After achieving final design state and styling, when deploying the website it was noticed an extra white board withing the images while some of the text boxes where hitting the end of viewpoint with 100% width in mobile layout - the bug was not noticeable on desktop. With Inspect tool, it was flagged the bug was being caused by a 15px padding applied to the boxes only, pushing other content 15px from right side - removing the padding caused the text boxes to lose the padding between text and edge of borders also breaking the design.
 
     - Code example with bug:
   
@@ -174,7 +174,7 @@ __Solved Bugs__
   - A new div element was created inside the first div and the padding was applied to the enclosed div, making the padding to contained inside the parent div and respecting its size.
   
 - __Google Maps iframe__
-  - When running HTML checker W3C validator, the solution applied to make the iframe dynamic by applying its width and height to 100% - in order to force it to fit its div wraper - an error returned where % values were not valid.
+  - When running HTML checker W3C validator, the solution applied to make the iframe dynamic by applying its width and height to 100% - in order to force it to fit its div wrapper - an error returned where % values were not valid.
   - Before applying the value 100% it had been tried to remove values from HTML and apply CSS rules, which did not work. After extra online research, the article [How to Create a Full-screen iFrame with 100% Height](https://www.tutorialrepublic.com/faq/how-to-create-a-full-screen-iframe-with-100-percent-height.php#:~:text=You%20can%20simply%20set%20the,height%20and%20width%20of%20100%25.) showed a solution which fixed the bug.
   
     ```
@@ -190,14 +190,18 @@ __Solved Bugs__
         width: 100%;
     }
     ```
+- __Favicon not working GitHub pages__
+  - On final development stage, it was tried to add a favicon to the website. When running the code either local or with CodeAnywhere preview it works as expected, however, when deployed on GitHub Pages it did not work.
+  - After few unsuccessful solutions applied, the solution that worked out was moving the favicon.ico file to the directory's home folder using a path to the file without slash. 
+    
+    ```
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    ```
+
 
 ### Unfixed Bugs
 
-  - On final development stage, it was tried to add a favicon to the website. When running the code either local or with CodeAnywhere preview it works as expected, however, when deployed on GitHub Pages it does not work. A few solutions have been tried without fixing the bug.
-
-```
-<link rel="shortcut icon" type="image/x-icon" href="/assets/images/favicon.ico">
-```
+  - There are no unfixed bugs. 
 
 ## Deployment
 
@@ -216,10 +220,10 @@ The live link can be found here - <https://jpgenari.github.io/gaming-buddies/>
 - The icons used on the website were taken from [Font Awesome](https://fontawesome.com/search?o=r&m=free) free icons;
 - Solution for the fixed header and footer taken from [Tutorial Republic](https://www.tutorialrepublic.com/faq/how-to-create-fixed-header-or-footer-using-css.php#:~:text=Answer%3A%20Use%20CSS%20fixed%20positioning,bottom%20of%20the%20viewport%20accordingly);
 - Solution for the "inset" tag for positioning from [Stefan Judis](https://www.stefanjudis.com/today-i-learned/inset-is-a-shorthand-for-top-right-bottom-and-left/#:~:text=inset%20is%20a%20shorthand%20that,know%20from%20margin%20%2F%20padding%20declarations);
-- Solution for the iframe with dybamic size from [Tutorial Republic](https://www.tutorialrepublic.com/faq/how-to-create-a-full-screen-iframe-with-100-percent-height.php#:~:text=You%20can%20simply%20set%20the,height%20and%20width%20of%20100%25);
-- Solution for favicon on GitHub Pages deployments from [Medium article](https://sneha-herle.medium.com/favicon-working-on-localhost-but-not-on-github-pages-6c7b9e947504) - soluion not working.
+- Solution for the iframe with dynamic size from [Tutorial Republic](https://www.tutorialrepublic.com/faq/how-to-create-a-full-screen-iframe-with-100-percent-height.php#:~:text=You%20can%20simply%20set%20the,height%20and%20width%20of%20100%25);
+- Solution for favicon on GitHub Pages deployments from [iTecNote](https://itecnote.com/tecnote/html-favicon-with-github-pages/).
 
 ### Media
 
 - The images used on sections hero, Who we are and Join us! were taken from [Pexels](https://www.pexels.com/);
-- The images used on section meet up was talemn from [Unsplash](https://unsplash.com/).
+- The image used on section meet up was taken from [Unsplash](https://unsplash.com/).
