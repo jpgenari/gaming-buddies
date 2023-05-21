@@ -107,22 +107,6 @@ The website has been tested for its functionalities working as expected on multi
 
 [Am I Reponsive?](https://ui.dev/amiresponsive?url=https://jpgenari.github.io/gaming-buddies/index.html) shows all availble common layouts.
 
-    - **Desktop** layout will follow main website design seen on attached screenshots above;
-    
-    - **Tablets** layout will follow two variants:
-    
-      -  *Large - down to 815px*
-    
-        ![iPad Air](/assets/images/gaming-buddies-ipad-air.png)
-      
-      - *Medium - below 815px*
-    
-       ![iPad Mini](/assets/images/gaming-buddies-ipad-mini.png)
-
-    - **Mobile** layout:
-    
-        ![iPhone 12 Pro](/assets/images/gaming-buddies-iphone-12-pro.png)
-
 - __Tested Browsers and Devices__
 
     - Desktop:
@@ -227,5 +211,7 @@ The live link can be found here - <https://jpgenari.github.io/gaming-buddies/>
 ## Credits
 
 ### Content
+
+- The webside base code was created based on the [CI Love Running](https://github.com/Code-Institute-Solutions/Love-Running-Solutions) project, with the 
 
 ### Media

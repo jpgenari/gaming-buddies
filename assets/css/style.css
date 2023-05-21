@@ -139,7 +139,7 @@ nav ul {
     background-image: url('../images/hero-image.webp'); /* replaced image for immage with suitable size */
 }
 
-#cover-text {
+#hero-text {
     width: 380px;
     height: auto;
     font-size: 150%;
@@ -267,7 +267,7 @@ iframe {
     text-align: center;
 }
 
-.social-networks>li {
+.social-networks > li {
     display: inline;
 }
 
@@ -275,6 +275,7 @@ iframe {
     font-size: 160%;
     margin: 1% 4%;
     color: #272A23;
+    display: inline;
 }
 
 /* for larger to medium screens size from 1260px wide and down */
@@ -335,7 +336,7 @@ iframe {
         float: left;
     }
 
-    #cover-text {
+    #hero-text {
         width: 100%;
         right: 0;
         left: 0;
@@ -429,7 +430,7 @@ iframe {
         margin-bottom: 0;
     }
     
-    #cover-text {
+    #hero-text {
         bottom: 25%;
     }
     
@@ -459,7 +460,7 @@ iframe {
         letter-spacing: 1px;
     }
     
-    #cover-text {
+    #hero-text {
         bottom: 40%;
     }
     
