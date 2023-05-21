@@ -65,7 +65,6 @@ h2 {
 
 .main-font h2 {
     font-size: 130%;
-    /* fixed header and footer - reference https://bit.ly/fixedheaderfooter */
 }
 
 .height-auto {
@@ -84,6 +83,7 @@ h2 {
     top: 0;
     z-index: 9999;
     /* added to prevent content overlapping header */
+    /* fixed header and footer - reference https://bit.ly/fixedheaderfooter */
 }
 
 .fixed-footer {
@@ -130,7 +130,7 @@ nav ul {
 
 /* hero section */
 
-#hero-outer {
+#hero {
     padding-top: 0;
     overflow: hidden;
 }
@@ -275,7 +275,6 @@ iframe {
     font-size: 160%;
     margin: 1% 4%;
     color: #272A23;
-    display: inline;
 }
 
 /* for larger to medium screens size from 1260px wide and down */
