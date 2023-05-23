@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Roboto:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Roboto:wght@300&display=swap");
 
 /* general rules */
 
@@ -22,7 +22,7 @@ h2 {
     font-family: "Nunito Sans", sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
-    color: #272A23;
+    color: #272a23;
     /* settings for h1 and h2 elements font */
 }
 
@@ -44,7 +44,8 @@ h2 {
 }
 
 .position-absolute {
-    position: absolute /* placing at a fixed position relative to its parent container */
+    position: absolute;
+    /* placing at a fixed position relative to its parent container */
 }
 
 .main-background {
@@ -110,11 +111,13 @@ h2 {
 }
 
 nav ul {
-    float: right /* solution found to keep correct items order without changing html */
+    float: right;
+    /* solution found to keep correct items order without changing html */
 }
 
 #menu li {
-    display: inline; /* solution found to keep correct items order without changing html */
+    display: inline;
+    /* solution found to keep correct items order without changing html */
     list-style-type: none;
     margin-right: 30px;
 }
@@ -125,7 +128,7 @@ nav ul {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #272A23;
+    border-bottom: 1px solid #272a23;
 }
 
 /* hero section */
@@ -136,7 +139,8 @@ nav ul {
 }
 
 #hero-image {
-    background-image: url('../images/hero-image.webp'); /* replaced image for immage with suitable size */
+    background-image: url("../images/hero-image.webp");
+    /* replaced image for immage with suitable size */
 }
 
 #hero-text {
@@ -153,7 +157,7 @@ nav ul {
 
 #whoweare-image {
     width: 400px;
-    background-image: url('..//images/whoweare-image.webp');
+    background-image: url("..//images/whoweare-image.webp");
 }
 
 #whoweare-text {
@@ -175,7 +179,7 @@ p {
 }
 
 .text-input {
-    color: #272A23;
+    color: #272a23;
     width: 100%;
     height: 25px;
     margin: 5px 0 12px 0;
@@ -188,7 +192,7 @@ p {
 }
 
 .block-dropdown {
-    color: #272A23;
+    color: #272a23;
     width: 50%;
     height: 25px;
     margin: 5px 0 12px 0;
@@ -220,14 +224,14 @@ p {
 
 #joinus-image {
     width: 400px;
-    background-image: url('../images/joinus-image.webp');
-    float: right
+    background-image: url("../images/joinus-image.webp");
+    float: right;
 }
 
 /* meet up section */
 
 #meetup-image {
-    background-image: url('../images/meetup-image.webp');
+    background-image: url("../images/meetup-image.webp");
 }
 
 .map-wrapper {
@@ -267,20 +271,19 @@ iframe {
     text-align: center;
 }
 
-.social-networks > li {
+.social-networks>li {
     display: inline;
 }
 
 .social-networks i {
     font-size: 160%;
     margin: 1% 4%;
-    color: #272A23;
+    color: #272a23;
 }
 
 /* for larger to medium screens size from 1260px wide and down */
 
 @media screen and (max-width: 1260px) {
-
     #whoweare-text {
         top: 13%;
     }
@@ -290,7 +293,7 @@ iframe {
         height: 20%;
         inset: 60% 10% 10% 10%;
     }
-    
+
     #meetup-text {
         width: 80%;
         inset: 10% 10% 42% 10%;
@@ -300,7 +303,6 @@ iframe {
 /* for medium screen sizes 1000px and down */
 
 @media screen and (max-width: 1000px) {
-
     #menu {
         line-height: 25px;
         margin-bottom: 20px;
@@ -312,7 +314,6 @@ iframe {
 /* For medium to small screen sizes 815px and down */
 
 @media screen and (max-width: 815px) {
-
     body {
         padding-top: 40px;
         padding-bottom: 20px;
@@ -341,7 +342,7 @@ iframe {
         left: 0;
         text-align: center;
     }
-    
+
     #whoweare-text {
         width: 100%;
         top: 12%;
@@ -349,26 +350,26 @@ iframe {
         left: 0;
         text-align: center;
     }
-    
+
     #whoweare-image {
         width: 100%;
     }
-    
+
     #joinus-form {
         width: 100%;
         right: 0;
         left: 0;
         text-align: center;
     }
-    
+
     .join-button {
         margin: auto;
     }
-    
+
     #joinus-image {
         width: 100%;
     }
-    
+
     #meetup-text {
         width: 100%;
         top: 12%;
@@ -376,7 +377,7 @@ iframe {
         left: 0;
         text-align: center;
     }
-    
+
     .map-wrapper {
         width: 100%;
         right: 0;
@@ -384,24 +385,23 @@ iframe {
         left: 0;
     }
 }
-    
+
 /* For extra-small screen sizes 550px and down */
-    
+
 @media screen and (max-width: 550px) {
-            
     body {
         padding-top: 55px;
         padding-bottom: 0;
     }
-    
+
     .main-sections {
         height: 800px;
     }
-    
+
     .fixed-footer {
         position: relative;
     }
-    
+
     .fixed-header {
         width: 100%;
         background-color: #fff;
@@ -409,16 +409,16 @@ iframe {
         position: fixed;
         z-index: 9999;
     }
-    
+
     #logo {
         font-size: 150%;
         line-height: 35px;
     }
-    
+
     #menu {
         margin-bottom: 0;
     }
-    
+
     #menu li {
         font-size: 80%;
         line-height: 15px;
@@ -428,49 +428,48 @@ iframe {
         margin-left: 0;
         margin-bottom: 0;
     }
-    
+
     #hero-text {
         bottom: 25%;
     }
-    
+
     #whoweare-text {
         top: 15%;
     }
-    
+
     #joinus-form {
-        top: 21%
+        top: 21%;
     }
-    
+
     #meetup-text {
         top: 15%;
     }
-    
+
     .map-wrapper {
         bottom: 10%;
     }
 }
-    
+
 /* For small screen sizes 375px and down */
-    
+
 @media screen and (max-width: 375px) {
-    
     #menu li {
         font-size: 65%;
         letter-spacing: 1px;
     }
-    
+
     #hero-text {
         bottom: 40%;
     }
-    
+
     #whoweare-text {
         top: 5%;
     }
-    
+
     #joinus-form {
-        top: 15%
+        top: 15%;
     }
-    
+
     #meetup-text {
         top: 15%;
     }
