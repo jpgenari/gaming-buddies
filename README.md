@@ -20,9 +20,9 @@ We do value our online gaming buddies, however, we also want to meet out buddies
 
 ![Logo and Nav Bar](/assets/images/gaming-buddies-logo-and-nav.png)
 
-- __The landing page image__
+- __The Landing section (Hero) image__
 
-  - The landing page features a photograph representing the core idea behind the website showing friends playing together and having fun.
+  - The landing section features a photograph representing the core idea behind the website showing friends playing together and having fun.
 
   - It also includes a text overlay allowing users to reinforce the website purpose.
 
@@ -88,9 +88,9 @@ The website has been tested for its functionalities working as expected on multi
 
 - __Functionalities__
   
-    - Website opens showing its header with both logo and menu nested inside it and landing page;
+    - Website opens showing its header with both logo and menu nested inside it and its landing section;
     - Hovering over menu items an underline shows up to indicate to the user button is clickable actionable;
-    - Clicking on "Home" button leads to landing page and hero image section centralized to the viewpoint;
+    - Clicking on "Home" button leads to landing section centralized to the viewpoint;
     - Clicking on "Who We Are" button leads to the who we are section centralized to the viewpoint;
     - Clicking on "Join Us!" button leads to the join us section centralized to the viewpoint;
       - Hovering over the text boxes should turn their boarders red to indicate action;
@@ -101,7 +101,7 @@ The website has been tested for its functionalities working as expected on multi
     - On the embedded Google Maps, clicking on "Vier Larger Maps" opens a window leading to Google Maps with the address selected where the users can view directions to the meet up place.
     - Clicking on any social network icon nested inside footer opens a new window leading to the specific social network;
     - Scrolling down and up instead of clicking on menu buttons will move the viewpoint throughout the sections;
-    - When navigating on the page either through navigation buttons or scrolling on desktop or tablet, both header and footer should stay fixed at the top and bottom respectively to facilitate navigation. On mobile, for viewpoin optimization the footer changes to relative position hidding when scrolling up.
+    - When navigating on the page either through navigation buttons or scrolling on desktop or tablet, both header and footer should stay fixed at the top and bottom respectively to facilitate navigation. On mobile, for viewpoint optimization the footer changes to relative position hiding when scrolling up.
 
 - __Layout and Design__
 
@@ -176,7 +176,7 @@ __Solved Bugs__
   
 - __Google Maps iframe__
   - When running HTML checker W3C validator, the solution applied to make the iframe dynamic by applying its width and height to 100% - in order to force it to fit its div wrapper - an error returned where % values were not valid.
-  - Before applying the value 100% it had been tried to remove values from HTML and apply CSS rules, which did not work. After extra online research, the article [How to Create a Full-screen iFrame with 100% Height](https://www.tutorialrepublic.com/faq/how-to-create-a-full-screen-iframe-with-100-percent-height.php#:~:text=You%20can%20simply%20set%20the,height%20and%20width%20of%20100%25.) showed a solution which fixed the bug.
+  - Before applying the value 100% it had been tried to remove values from HTML and apply CSS rules, which did not work. After extra online research, the article [How to Create a Full-screen iFrame with 100% Height](https://www.tutorialrepublic.com/faq/how-to-create-a-full-screen-iframe-with-100-percent-height.php#:~:text=You%20can%20simply%20set%20the,height%20and%20width%20of%20100%25.) showed a solution which fixed the bug - removed width and height from HTML and styled with CSS.
   
     ```
     .map-wrapper { /*div enclosing iframe*/
