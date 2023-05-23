@@ -2,30 +2,28 @@
 <html lang="en">
 
 <head>
-    
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Gaming Buddies meet up club for gamers in Dublin, Ireland">
-    <meta name="keywords" content="gaming buddies, gamers community, gamers meet up, video game, pc, nintendo, playstation, xbox, dublin, ireland">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Gaming Buddies meet up club for gamers in Dublin, Ireland" />
+    <meta name="keywords"
+        content="gaming buddies, gamers community, gamers meet up, video game, pc, nintendo, playstation, xbox, dublin, ireland" />
 
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css" />
 
     <title>Gaming Buddies</title>
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"> <!-- moved favicon repository main directory to avoid slash - solution source: https://itecnote.com/tecnote/html-favicon-with-github-pages/ -->
-
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <!-- moved favicon repository main directory to avoid slash - solution source: https://itecnote.com/tecnote/html-favicon-with-github-pages/ -->
 </head>
 
 <body>
-
     <!-- header section -->
 
     <header class="fixed-header">
-    
         <a href="index.html" class="fixed-logo">
             <h1 id="logo">Gaming Buddies</h1>
         </a>
-    
+
         <nav>
             <ul id="menu">
                 <li>
@@ -42,75 +40,88 @@
                 </li>
             </ul>
         </nav>
-    
     </header>
 
     <!-- hero section -->
 
     <section id="hero" class="main-sections">
-    
-        <div id="hero-image" class="main-images" role="img" aria-label="Background image showing three friends seated on a couch playing video game"></div>
+        <div id="hero-image" class="main-images" role="img"
+            aria-label="Background image showing three friends seated on a couch playing video game"></div>
         <!-- used role="img" + aria-label for accessibility -->
-    
+
         <div id="hero-text" class="position-absolute main-background text-left">
             <div class="padding-text">
                 <h2>Gaming Buddies</h2>
                 <h3>Bringing buddy gamers together</h3>
             </div>
         </div>
-    
     </section>
 
     <!-- who we are section -->
 
     <section id="whoweare" class="main-sections">
-    
-        <div id="whoweare-image" class="main-images" role="img" aria-label="Image showing a blue directional joystick on a fliperama dash">
-        </div> <!-- used role="img" + aria-label for accessibility -->
-    
+        <div id="whoweare-image" class="main-images" role="img"
+            aria-label="Image showing a blue directional joystick on a fliperama dash"></div>
+        <!-- used role="img" + aria-label for accessibility -->
+
         <div id="whoweare-text" class="position-absolute main-background main-font height-auto text-left">
             <div class="padding-text">
                 <h2><i class="fa-solid fa-puzzle-piece"></i> Who We Are</h2>
-                <br>
+                <br />
                 <h3>We are a Dublin-based gaming community.</h3>
-                <br>
+                <br />
                 <h3>Here you will:</h3>
-                <br>
-                <p><i class="fa-solid fa-play"></i> Chat about your games and discover new ones;</p>
-                <p><i class="fa-solid fa-play"></i> Discuss about new game releases;</p>
-                <p><i class="fa-solid fa-play"></i> Be in healthy and friendly environment - no console-war allowed <i class="fa-sharp fa-regular fa-face-smile"></i> ;</p>
-                <p><i class="fa-solid fa-play"></i> And, find buddies to play your favourite games with you!</p>
-                <br>
-                <h3>Want to join us? It is simple and easy like playing with an invencible mode on!</h3>
-                <br>
-                <h3>You just need to choose your console, pick your game and find your buddy! </h3>
-                <br>
+                <br />
+                <p>
+                    <i class="fa-solid fa-play"></i> Chat about your games and discover
+                    new ones;
+                </p>
+                <p>
+                    <i class="fa-solid fa-play"></i> Discuss about new game releases;
+                </p>
+                <p>
+                    <i class="fa-solid fa-play"></i> Be in healthy and friendly
+                    environment - no console-war allowed
+                    <i class="fa-sharp fa-regular fa-face-smile"></i> ;
+                </p>
+                <p>
+                    <i class="fa-solid fa-play"></i> And, find buddies to play your
+                    favourite games with you!
+                </p>
+                <br />
+                <h3>
+                    Want to join us? It is simple and easy like playing with an
+                    invincible mode on!
+                </h3>
+                <br />
+                <h3>
+                    You just need to choose your console, pick your game and find your
+                    buddy!
+                </h3>
+                <br />
                 <h3>Are you ready to press start?</h3>
             </div>
         </div>
-    
     </section>
 
     <!-- join us section -->
 
     <section id="joinus" class="main-sections">
-    
         <div id="joinus-form" class="position-absolute height-auto">
-            
             <form method="POST" action="https://formdump.codeinstitute.net/" class="padding-text main-background">
                 <h2><i class="fa-solid fa-user-plus"></i> Want to join us?</h2>
-                <br>
+                <br />
                 <h3>Sign up below to find your gaming buddy</h3>
-                <br>
+                <br />
                 <label for="fname">First Name</label>
-                <input id="fname" name="first_name" type="text" required class="text-input">
-    
+                <input id="fname" name="first_name" type="text" required class="text-input" />
+
                 <label for="lname">Last Name</label>
-                <input id="lname" name="last_name" type="text" required class="text-input">
-    
+                <input id="lname" name="last_name" type="text" required class="text-input" />
+
                 <label for="email">Email Address</label>
-                <input type="email" id="email" name="email_address" required class="text-input">
-    
+                <input type="email" id="email" name="email_address" required class="text-input" />
+
                 <label for="console">Your Console?</label>
                 <select id="console" name="console" class="block-dropdown" required>
                     <option value="">-- Please pick one --</option>
@@ -118,59 +129,64 @@
                     <option value="playstation-5">Play Station 5</option>
                     <option value="xbox">Xbox Series X/S</option>
                 </select>
-    
-                <input class="join-button" type="submit" value="START">
+
+                <input class="join-button" type="submit" value="START" />
             </form>
-        
         </div>
-    
+
         <div id="joinus-image" class="main-images" role="img"
             aria-label="Image showing a man and a woman seating on a couch playing video game"></div>
         <!-- used role="img" + aria-label for accessibility -->
-    
     </section>
 
     <!-- meet up section -->
 
     <section id="meetup" class="main-sections">
-    
         <div class="map-wrapper position-absolute">
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2381.7564522219964!2d-6.282789322198639!3d53.34761577228974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670c2e50904e1f%3A0x51137aabca344eb8!2sToken!5e0!3m2!1sen!2sie!4v1684461439239!5m2!1sen!2sie"
-                style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
-                aria-label="Embedded Google Maps showing meet up location"></iframe> <!-- google maps iframe showing meet up point -->
+                style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                aria-label="Embedded Google Maps showing meet up location"></iframe>
+            <!-- google maps iframe showing meet up point -->
         </div>
-    
+
         <div id="meetup-text" class="position-absolute main-background main-font text-left">
             <div class="padding-text">
                 <h2><i class="fa-solid fa-gamepad"></i> Let's Meet Up</h2>
-                <br>
-                <h3>Would you like to play or chat about your favourite game over a pint &#40;or your preferred soft drink&#41;?</h3>
-                <br>
+                <br />
+                <h3>
+                    Would you like to play or chat about your favourite game over a pint
+                    &#40;or your preferred soft drink&#41;?
+                </h3>
+                <br />
                 <div class="token-meetup">
                     <div class="token-inline">
                         <h3>When</h3>
-                        <p><i class="fa-solid fa-arrow-right"></i> Every 2nd & 4th Saturday</p>
+                        <p>
+                            <i class="fa-solid fa-arrow-right"></i> Every 2nd & 4th Saturday
+                        </p>
                         <p><i class="fa-solid fa-arrow-right"></i> 15:00</p>
                     </div>
                     <div class="token-inline">
                         <h3>Where</h3>
                         <p><i class="fa-solid fa-arrow-right"></i> Token</p>
-                        <p><i class="fa-solid fa-arrow-right"></i> 72-74 Queen St, Smithfield, Dublin&nbsp;7</p>
+                        <p>
+                            <i class="fa-solid fa-arrow-right"></i> 72-74 Queen St,
+                            Smithfield, Dublin&nbsp;7
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
-    
-        <div id="meetup-image" class="main-images" role="img" aria-label="Background image showing a yellow and portable video game"></div>
+
+        <div id="meetup-image" class="main-images" role="img"
+            aria-label="Background image showing a yellow and portable video game"></div>
         <!-- used role="img" + aria-label for accessibility -->
-    
     </section>
 
     <!-- footer section -->
 
     <footer class="fixed-footer">
-    
         <ul class="social-networks">
             <li>
                 <a href="https://facebook.com" target="_blank" rel="noopener"
@@ -182,7 +198,8 @@
             </li>
             <li>
                 <a href="https://youtube.com" target="_blank" rel="noopener"
-                    aria-label="Visit our YouTube channel (opens in a new tab)"><i class="fa-brands fa-square-youtube"></i></a>
+                    aria-label="Visit our YouTube channel (opens in a new tab)"><i
+                        class="fa-brands fa-square-youtube"></i></a>
             </li>
             <li>
                 <a href="https://www.twitch.tv/" target="_blank" rel="noopener"
@@ -190,16 +207,15 @@
             </li>
             <li>
                 <a href="https://instagram.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
+                    aria-label="Visit our Instagram page (opens in a new tab)"><i
+                        class="fa-brands fa-instagram"></i></a>
             </li>
         </ul>
-    
     </footer>
 
     <!-- font awesome script-->
 
     <script src="https://kit.fontawesome.com/de0f72e78e.js" crossorigin="anonymous"></script>
-
 </body>
 
 </html>
